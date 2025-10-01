@@ -15,6 +15,9 @@ I'm a developer based in New Zealand with a passion for applying **Machine Learn
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
 </p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" />
+</p>
 
 ## 🚀 Featured Projects & Space Highlights
 

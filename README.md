@@ -5,12 +5,6 @@
 I'm a developer based in New Zealand with a passion for applying **Machine Learning** to complex data, particularly in the fields of **Astronomy and Robotics**. I specialize in building robust models and effective simulations.
 
 ---
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aayushpx&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="aayushpx GitHub Stats" />
-</p>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
 </p>
@@ -25,6 +19,12 @@ These are the core projects I'm working on right now, reflecting my technical fo
 | **[[robot-simulations](https://github.com/aayushpx/robot-simulations)]** | Python, ROS, Pathfinding | **🤖 Robotics Simulation** – Python code exploring algorithms for autonomous navigation and control in simulated environments. |
 | **[MoodAvatar](https://github.com/aayushpx/MoodAvatar)** | C#, Unity | **🎮 Game/Graphics** – Project showcasing UI development and 3D rendering skills in Unity. |
 | **[qmk\_firmware](https://github.com/aayushpx/qmk_firmware)** | C, Embedded Systems | **💻 Hardware** – Forked project contributing to open-source keyboard firmware. |
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aayushpx&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="aayushpx GitHub Stats" />
+</p>
 
 ## 🛠️ Technology Stack & Skills
 

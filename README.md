@@ -5,6 +5,15 @@
 I'm a developer based in New Zealand with a passion for applying **Machine Learning** to complex data, particularly in the fields of **Astronomy and Robotics**. I specialize in building robust models and effective simulations.
 
 ---
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aayushpx&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="aayushpx GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
+</p>
 
 ## 🚀 Featured Projects & Space Highlights
 

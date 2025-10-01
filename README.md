@@ -6,14 +6,6 @@ I'm a developer based in New Zealand with a passion for applying **Machine Learn
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
-</p>
 
 ## 🚀 Featured Projects & Space Highlights
 
@@ -36,6 +28,12 @@ Here are the primary tools and languages I work with:
 | **ML/Data** | <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> |
 | **Other Tools** | <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black"/> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> |
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
+</p>
 ---
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aayushpx&label=Profile%20Views&color=blue" alt="aayushpx Profile Views" />

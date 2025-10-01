@@ -28,6 +28,9 @@ Here are the primary tools and languages I work with:
 | **Other Tools** | <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black"/> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> |
 
 ---
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aayushpx&label=Profile%20Views&color=blue" alt="aayushpx Profile Views" />
+</p>
 
 <p align="center">
   Connect with me: 

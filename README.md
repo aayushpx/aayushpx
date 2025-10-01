@@ -12,7 +12,7 @@ These are the core projects I'm working on right now, reflecting my technical fo
 
 | Repository | Focus | Status |
 | :--- | :--- | :--- |
-| **[[starry-journey](https://github.com/aayushpx/starry-journey)]** | Machine Learning, Supervised Learning | **🔭 Exoplanet/Object Detection** – Models built using Scikit-learn and TensorFlow to detect patterns in stellar data. *(Make this repo **public** to link it!)* |
+| **[[starry-journey](https://github.com/aayushpx/starry-journey)]** | Machine Learning, Supervised Learning | **🔭 Exoplanet/Object Detection** – Models built using Scikit-learn and TensorFlow to detect patterns in stellar data. |
 | **[[robot-simulations](https://github.com/aayushpx/robot-simulations)]** | Python, ROS, Pathfinding | **🤖 Robotics Simulation** – Python code exploring algorithms for autonomous navigation and control in simulated environments. |
 | **[MoodAvatar](https://github.com/aayushpx/MoodAvatar)** | C#, Unity | **🎮 Game/Graphics** – Project showcasing UI development and 3D rendering skills in Unity. |
 | **[qmk\_firmware](https://github.com/aayushpx/qmk_firmware)** | C, Embedded Systems | **💻 Hardware** – Forked project contributing to open-source keyboard firmware. |

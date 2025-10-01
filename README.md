@@ -9,10 +9,6 @@ I'm a developer based in New Zealand with a passion for applying **Machine Learn
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aayushpx&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="aayushpx GitHub Stats" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
 </p>
 <p align="center">

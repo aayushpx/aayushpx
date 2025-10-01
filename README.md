@@ -1,6 +1,6 @@
 # Hi there! I'm Aayush Prakash 👋
 
-### `ML for Exoplanets 🌌 | Robotics & Simulations 🤖 | Contributor @NASA Space Apps`
+### `ML for Astronomy 🌌 | Robotics & Simulations 🤖 
 
 I'm a developer based in New Zealand with a passion for applying **Machine Learning** to complex data, particularly in the fields of **Astronomy and Robotics**. I specialize in building robust models and effective simulations.
 

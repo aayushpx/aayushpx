@@ -1,10 +1,6 @@
 <p align="right">
-  <img src="
-
-http://googleusercontent.com/image_collection/image_retrieval/15849366350666203910_0
-" alt="NASA Logo" width="100"/>
+  <img src="http://googleusercontent.com/image_collection/image_retrieval/15849366350666203910_0" alt="NASA Logo" width="100"/>
 </p>
-
 # Hi there! I'm Aayush Prakash 👋
 
 ### `ML for Exoplanets 🌌 | Robotics & Simulations 🤖 | Contributor @NASA Space Apps`

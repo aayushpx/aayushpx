@@ -39,7 +39,7 @@ The hackathon was focused on space startups, so we didn't just build tech. We de
 
 We took 2nd place building a web app that detects exoplanets from telescope data and visualizes them in 3D. I was team lead and ML engineer for a group of 4. My job was to design the detection pipeline, train the Random Forest model on Kepler mission data, and build the habitability classifier.
 
-The coolest part was seeing our model's predictions rendered as interactive 3D visualizations using Three.js. We deployed it live during the hackathon and actually had judges uploading their own telescope data to test it.
+The coolest part was seeing our model's predictions rendered as interactive 3D visualizations using Three.js. We deployed it live during the hackathon and showed the demo working.
 
 Also learned a lot about leading a team under time pressure. Making quick decisions about what's realistic in 48 hours vs what's nice-to-have is harder than it sounds.
 

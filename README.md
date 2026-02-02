@@ -1,47 +1,91 @@
-# Hi there! I'm Aayush Prakash 👋
+# Aayush Prakash
 
-### `ML for Astronomy 🌌 | Robotics & Simulations 🤖`
+**`Embedded Systems | ML for Aerospace | Spacecraft Telemetry`**
 
-I'm a developer based in New Zealand with a passion for applying **Machine Learning** to complex data, particularly in the fields of **Astronomy and Robotics**. I specialize in building robust models and effective simulations.
+I'm a first-year CS student in New Zealand obsessed with rockets and spacecraft. Currently teaching myself embedded C++ by building a rocket flight computer from scratch, and applying ML to real space problems through hackathons. Long-term goal: flight dynamics engineer working on actual spacecraft systems.
 
 ---
 
+## 🚀 What I'm Building Right Now
 
-## 🚀 Featured Projects & Space Highlights
+**[Rocket Telemetry System](https://github.com/aayushpx/rocket-telemetry-system)** - Because reading datasheets is more fun than it should be
 
-These are the core projects I'm working on right now, reflecting my technical focus.
+Building a complete flight computer for model rockets using ESP32 and bare-metal C++. No Arduino libraries, no shortcuts. Currently writing custom sensor drivers with manual bit-banging because that's apparently how you actually learn this stuff. The goal is real-time sensor fusion, physics simulation, and eventually ML-based computer vision for autonomous recovery.
 
-| Repository | Focus | Status |
-| :--- | :--- | :--- |
-| **[Exoplanet Explorer](https://github.com/CelesteiAI/nasa-hackathon-2025/tree/main)** | Machine Learning, Supervised Learning | **🔭 Exoplanet/Object Detection** – Models built using Scikit-learn and TensorFlow to detect patterns in stellar data. |
-| **[robot-simulations](https://github.com/aayushpx/robot-simulations)** | Python, ROS, Pathfinding | **🤖 Robotics Simulation** – Python code exploring algorithms for autonomous navigation and control in simulated environments. |
-| **[MoodAvatar](https://github.com/aayushpx/MoodAvatar)** | C#, Unity | **🎮 Game/Graphics** – Project showcasing UI development and 3D rendering skills in Unity. |
-| **[qmk\_firmware](https://github.com/aayushpx/qmk_firmware)** | C, Embedded Systems | **💻 Hardware** – Forked project contributing to open-source keyboard firmware. |
+Right now: figuring out how to reconstruct temperature data from DHT11 timing pulses using bitwise operations. It's tedious, it's low-level, and it's exactly what I need to understand embedded systems at a fundamental level.
 
-## 🛠️ Technology Stack & Skills
+**Stack:** Embedded C++ • ESP-IDF v5.2 • ESP32-WROOM • Hardware Integration
 
-Here are the primary tools and languages I work with:
-
-| Category | Tools & Languages |
-| :--- | :--- |
-| **Languages** | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/> |
-| **ML/Data** | <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> |
-| **Other Tools** | <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black"/> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> |
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="aayushpx Top Languages" />
-</p>
 ---
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aayushpx&label=Profile%20Views&color=blue" alt="aayushpx Profile Views" />
+
+## 🏆 Stuff I've Built at Hackathons
+
+### [🛰️ OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)
+**ActInSpace 2025** | Led a team of 4
+
+Satellite operators get flooded with thousands of collision warnings daily. Most are noise. We built an AI system that learns which warnings actually matter by watching how risk evolves over time.
+
+I led a team of 4 people (ML engineer, backend dev, frontend dev, business analyst) and we had 48 hours to build both the tech and a business model. My part was designing the LSTM architecture and preprocessing pipeline. The key insight: adding a skip connection to let the model see the latest data directly gave us 5x better accuracy than the baseline.
+
+We also built a dashboard that tells operators "you have 11 hours left to decide" instead of just throwing probabilities at them. The hackathon was focused on space startups, so we also developed the business model canvas and pitched it as a SaaS product.
+
+**What I worked on:** Time-series preprocessing, skip-connection LSTM design, uncertainty quantification  
+**Tech:** Python, PyTorch, TypeScript
+
+---
+
+### [🌌 Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025)
+**NASA Space Apps Auckland 2025** | 2nd Place | Team Lead
+
+We took 2nd place building a web app that detects exoplanets from telescope data and visualizes them in 3D. I was team lead and ML engineer for a group of 4. My job was to design the detection pipeline, train the Random Forest model on Kepler mission data, and build the habitability classifier.
+
+The coolest part was seeing our model's predictions rendered as interactive 3D visualizations using Three.js. We deployed it live during the hackathon and actually had judges uploading their own telescope data to test it.
+
+Also learned a lot about leading a team under time pressure. Making quick decisions about what's realistic in 48 hours vs what's nice-to-have is harder than it sounds.
+
+**What I worked on:** ML pipeline design, Random Forest training, habitability prediction, task allocation  
+**Tech:** Python, scikit-learn, Flask, Three.js, Docker
+
+---
+
+## 🛠️ Technical Skills
+
+### Languages & Frameworks
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+### ML & Data Science
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+### Embedded & Hardware
+![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="Top Languages" height="165"/>
 </p>
 
-<p align="center">
-  Connect with me: 
-  <a href="mailto:m.v.somaiya21@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+---
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=aayushpx&label=Profile%20Views&color=blue" alt="Profile Views" />
 </p>
+
+---
+
+*Currently balancing uni coursework with building things that might actually fly someday. If you're working on anything space-related, I'd love to hear about it.*

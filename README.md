@@ -73,15 +73,6 @@ Also learned a lot about leading a team under time pressure. Making quick decisi
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="Top Languages" height="165"/>
-</p>
-
----
-
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=aayushpx&label=Profile%20Views&color=blue" alt="Profile Views" />
 </p>

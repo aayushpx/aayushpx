@@ -21,7 +21,7 @@ Right now: figuring out how to reconstruct temperature data from DHT11 timing pu
 ## 🏆 Stuff I've Built at Hackathons
 
 ### [🛰️ OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)
-**ActInSpace 2026** | Led a team of 4
+**ActInSpace 2026** | Team Lead
 
 Satellite operators get flooded with thousands of collision warnings daily. Most are noise. We built an AI system that learns which warnings actually matter by watching how risk evolves over time.
 

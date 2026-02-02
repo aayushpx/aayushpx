@@ -25,12 +25,12 @@ Right now: figuring out how to reconstruct temperature data from DHT11 timing pu
 
 Satellite operators get flooded with thousands of collision warnings daily. Most are noise. We built an AI system that learns which warnings actually matter by watching how risk evolves over time.
 
-I led a team of 4 people (ML engineer, backend dev, frontend dev, business analyst) and we had 48 hours to build both the tech and a business model. My part was designing the LSTM architecture and preprocessing pipeline. The key insight: adding a skip connection to let the model see the latest data directly gave us 5x better accuracy than the baseline.
+I led a team of 4 (aerospace engineer, ML engineer, software engineer, and me) over 24 hours to build both the tech and a business model. As team lead, I coordinated the technical work, helped shape the product direction, and pitched the final solution. Mostafa (ML engineer) designed the skip-connection LSTM that gave us 5x better accuracy, while I worked on understanding the problem space and making sure all the pieces fit together.
 
-We also built a dashboard that tells operators "you have 11 hours left to decide" instead of just throwing probabilities at them. The hackathon was focused on space startups, so we also developed the business model canvas and pitched it as a SaaS product.
+The hackathon was focused on space startups, so we didn't just build tech. We developed a business model canvas and pitched it as a SaaS product to judges. Nathan (aerospace engineer) brought the domain expertise, Jonty (software engineer) built the backend, and I made sure we had a story that made sense.
 
-**What I worked on:** Time-series preprocessing, skip-connection LSTM design, uncertainty quantification  
-**Tech:** Python, PyTorch, TypeScript
+**What I did:** Team coordination, product direction, business model, final pitch  
+**Tech stack:** Python, PyTorch, TypeScript
 
 ---
 
@@ -70,6 +70,15 @@ Also learned a lot about leading a team under time pressure. Making quick decisi
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpx&theme=dark" alt="GitHub Streak" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpx&layout=compact&langs_count=6&theme=dark" alt="Top Languages" height="165"/>
+</p>
 
 ---
 

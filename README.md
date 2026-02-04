@@ -12,7 +12,7 @@ I'm a first-year CS student in New Zealand obsessed with rockets and spacecraft.
 
 Building a complete flight computer for model rockets using ESP32 and bare-metal C++. No Arduino libraries, no shortcuts. Currently writing custom sensor drivers with manual bit-banging because that's apparently how you actually learn this stuff. The goal is real-time sensor fusion, physics simulation, and eventually ML-based computer vision for autonomous recovery.
 
-Right now: figuring out how to reconstruct temperature data from DHT11 timing pulses using bitwise operations. It's tedious, it's low-level, and it's exactly what I need to understand embedded systems at a fundamental level.
+Right now: Writing microsecond-accurate C++ drivers for ultrasonic landing radar and implementing safe hardware-level interfacing to bridge 5V sensors with 3.3V ESP32 logic.
 
 **Stack:** Embedded C++ • ESP-IDF v5.2 • ESP32-WROOM • Hardware Integration
 

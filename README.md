@@ -2,7 +2,7 @@
 
 **`Embedded Systems | ML for Aerospace | Spacecraft Telemetry`**
 
-I'm a first-year CS student in New Zealand obsessed with rockets and spacecraft. Currently teaching myself embedded C++ by building a rocket flight computer from scratch, and applying ML to real space problems through hackathons. Long-term goal: flight dynamics engineer working on actual spacecraft systems.
+I'm a CS student in New Zealand obsessed with rockets and spacecraft. Currently teaching myself embedded C++ by building a rocket flight computer from scratch, and applying ML to real space problems through hackathons. Long-term goal: flight dynamics engineer working on actual spacecraft systems.
 
 ---
 

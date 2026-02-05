@@ -21,7 +21,7 @@ Right now: Writing microsecond-accurate C++ drivers for ultrasonic landing radar
 ## 🏆 Stuff I've Built at Hackathons
 
 ### [🛰️ OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)
-**ActInSpace 2026** | Team Lead
+**ActInSpace New Zealand 2026** | Team Lead
 
 Satellite operators get flooded with thousands of collision warnings daily. Most are noise. We built an AI system that learns which warnings actually matter by watching how risk evolves over time.
 
@@ -35,7 +35,7 @@ The hackathon was focused on space startups, so we didn't just build tech. We de
 ---
 
 ### [🌌 Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025)
-**NASA Space Apps Auckland 2025** | 2nd Place | Team Lead
+**NASA Space Apps New Zealand 2025** | 2nd Place | Team Lead
 
 We took 2nd place building a web app that detects exoplanets from telescope data and visualizes them in 3D. I was team lead and ML engineer for a group of 4. My job was to design the detection pipeline, train the Random Forest model on Kepler mission data, and build the habitability classifier.
 

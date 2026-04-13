@@ -10,7 +10,7 @@ hackathons when I get the chance.
 
 ## 🔭 What I'm Working On
 
-**[Project Aphelion](https://github.com/aayushpx/project-aphelion)**  
+### **[Project Aphelion](https://github.com/aayushpx/project-aphelion)**  
 A hardware-in-the-loop flight dynamics testbed. The ESP32 acts as a flight 
 computer streaming real sensor data; Python handles trajectory propagation, 
 state estimation, and dispersion analysis on the mission control side.
@@ -39,7 +39,7 @@ ML pipeline turning telescope data into 3D habitability visualisations.
 ---
 ## 🌐 Other Projects
 
-**[MUITSA Website](https://github.com/aayushpx/muitsa-site)**  
+### **[MUITSA Website](https://github.com/aayushpx/muitsa-site)**  
 Competition entry for the MUITSA Website Development Competition 2026.  
 Single-page site with live member counter, dark/light mode, scroll animations, and event slider.  
 **Stack:** HTML · CSS · Vanilla JS

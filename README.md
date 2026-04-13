@@ -64,8 +64,3 @@ Single-page site with live member counter, dark/light mode, scroll animations, a
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
----
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=aayushpx&label=Profile%20Views&color=blue" alt="Profile Views" />
-</p>

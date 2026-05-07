@@ -40,8 +40,8 @@ ML pipeline turning telescope data into 3D habitability visualisations.
 ## 🌐 Other Projects
 
 ### **[MUITSA Website](https://aayushpx.github.io/muitsa-site/)**  
-Winner of the MUITSA Website Development Competition 2026. \
-Now the official club website. 
+Designed and deployed a student association web platform using AI-assisted development workflows, 
+focusing on rapid prototyping, responsive UX and fast deployment via GitHub Pages. 
 
 ## 🛠️ Skills
 

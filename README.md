@@ -39,7 +39,7 @@ ML pipeline turning telescope data into 3D habitability visualisations.
 ---
 ## 🌐 Other Projects
 
-### **[MUITSA Website](https://github.com/aayushpx/muitsa-site)**  
+### **[MUITSA Website](https://aayushpx.github.io/muitsa-site/)**  
 Winner of the MUITSA Website Development Competition 2026. \
 Now the official club website. 
 

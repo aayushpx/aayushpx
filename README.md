@@ -39,7 +39,10 @@ ML pipeline turning telescope data into 3D habitability visualisations.
 ---
 ## 🌐 Other Projects
 
-### **[MUITSA Website](https://aayushpx.github.io/muitsa-site/)**  
+### [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) (PPM Image Renderer)
+Low-level 2D graphics project exploring how images are built from pixels in C++.
+
+### [MUITSA Website](https://aayushpx.github.io/muitsa-site/)  
 Designed and deployed a student association web platform using AI-assisted development workflows, 
 focusing on rapid prototyping, responsive UX and fast deployment via GitHub Pages. 
 

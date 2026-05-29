@@ -23,15 +23,15 @@ Currently building: a 3DOF trajectory propagator with RK4 integration.
 ## 🏆 Hackathons
 
 ### [🛰️ OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)
-**ActInSpace New Zealand 2026** | Team Lead | https://celestiai.vip/ \
+**ActInSpace New Zealand 2026** | Team Lead \
 AI system for satellite collision avoidance decision-making.  
 **My role:** Team lead, product direction, pitch  
 **Stack:** Python · PyTorch · TypeScript
 
 ---
 
-### [🌌 Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025)
-**NASA Space Apps New Zealand 2025** | 2nd Place | Team Lead  
+### [🌌 Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) (https://celestiai.vip/)
+**NASA Space Apps New Zealand 2025** | 2nd Place | Team Lead \
 ML pipeline turning telescope data into 3D habitability visualisations.  
 **My role:** ML pipeline, Random Forest training, habitability scoring  
 **Stack:** Python · scikit-learn · Flask · Three.js · Docker

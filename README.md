@@ -44,7 +44,7 @@ Low-level 2D graphics project exploring how images are built from pixels in C++.
 
 ### [MUITSA Website](https://aayushpx.github.io/muitsa-site/)  
 Designed and deployed a student association web platform using AI-assisted development workflows, 
-focusing on rapid prototyping, responsive UX and fast deployment via GitHub Pages. 
+focusing on modular architecture, responsive UX and automated deployment via GitHub Actions. 
 
 ## 🛠️ Skills
 

@@ -1,16 +1,16 @@
 # Aayush Prakash
-**Embedded Systems · Aerospace Software · New Zealand**
+**CS student in New Zealand · Embedded Systems · Aerospace Software**
 
-CS student building low-level systems from scratch. I care about understanding how things actually work, so most of my projects live close to the hardware: CPU emulators, image pipelines, flight computers.
+I build things to understand how they actually work. Most of my projects sit close to the metal: CPU emulators, image processing pipelines, flight computers. Less framework glue, more first-principles thinking.
 
-Right now I'm building a hardware-in-the-loop flight testbed and competing in aerospace hackathons when I can.
+Currently building a hardware-in-the-loop flight testbed and competing in aerospace hackathons when I can find them.
 
 ---
 
-## Current Focus
+## What I'm Working On
 
 ### [Project Aphelion](https://github.com/aayushpx/project-aphelion)
-Hardware-in-the-loop flight dynamics testbed. An ESP32 streams live sensor data while Python handles trajectory propagation and state estimation. Currently implementing a 3DOF propagator with RK4 integration.
+A hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. The ESP32 runs as a lightweight flight computer streaming live sensor data, while Python handles trajectory propagation and state estimation on the other end. Currently implementing a 3DOF propagator using RK4 integration.
 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
 
@@ -18,25 +18,24 @@ Hardware-in-the-loop flight dynamics testbed. An ESP32 streams live sensor data 
 
 ## Hackathons
 
-**[OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)** — ActInSpace New Zealand 2026
-AI system for satellite collision avoidance. Led the team across product direction, system design, and pitch.
+**[OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)** · ActInSpace New Zealand 2026
+AI system for satellite collision avoidance. Led the team on product direction, system architecture, and the pitch.
 `Python` `PyTorch` `TypeScript`
 
-**[Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025)** — NASA Space Apps NZ 2025, 2nd Place
-ML pipeline turning telescope data into 3D habitability visualisations. Built the Random Forest model and habitability scoring system.
+**[Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025)** · NASA Space Apps NZ 2025, 2nd Place
+ML pipeline that turns raw telescope data into 3D habitability visualisations. I built the Random Forest model and the habitability scoring system.
 `Python` `scikit-learn` `Flask` `Three.js` `Docker`
 
 ---
 
-## Projects
+## Other Projects
 
-| Project | What it is |
+| Project | What it does |
 |---|---|
-| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | Graph-based image segmentation in C++. DFS flood-fill on raw PPM data, no libraries. |
-| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers, and memory. |
-| [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API. |
-| [Binary/Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with validation and error handling. |
-| [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deployment. |
+| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images to detect and classify connected regions. Pure C++, no libraries. |
+| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers, and memory. Built from scratch to understand architecture. |
+| [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API, just math and memory. |
+| [Binary/Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with input validation and error handling. |
 
 ---
 

@@ -23,7 +23,7 @@ Currently implementing a 3DOF trajectory propagator using RK4 integration.
 
 ## 🏆 Hackathons
 
-### 🛰️ OrbitGuard - *ActInSpace New Zealand 2026*
+### 🛰️ [OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard) - *ActInSpace New Zealand 2026*
 AI system for satellite collision avoidance decision-making.
 
 **Role:** Team Lead - product direction, system design, pitch  
@@ -31,7 +31,7 @@ AI system for satellite collision avoidance decision-making.
 
 ---
 
-### 🌌 Exoplanet Explorer - *NASA Space Apps New Zealand 2025* (2nd Place)
+### 🌌 [Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) - *NASA Space Apps New Zealand 2025* (2nd Place)
 ML pipeline converting telescope data into 3D habitability visualisations.
 
 **Role:** ML pipeline development, Random Forest modelling, habitability scoring  

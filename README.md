@@ -1,5 +1,5 @@
 # Aayush Prakash
-**`Embedded Systems · Aerospace Software`**
+**`Embedded Systems · ML · Aerospace Software`**
 
 **CS student in New Zealand.**
 

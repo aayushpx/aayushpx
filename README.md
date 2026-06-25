@@ -1,8 +1,6 @@
 # Aayush Prakash
 **`Embedded Systems · ML · Aerospace Software`**
 
-**CS student in New Zealand.**
-
 I got into programming to understand how systems work under the hood. I tend to take things apart until they fully click, then rebuild them from first principles.
 
 Most of what I build comes from that process.

@@ -1,93 +1,53 @@
 # Aayush Prakash
-**`Embedded Systems · Aerospace Software`**
+**Embedded Systems · Aerospace Software · New Zealand**
 
-CS student in New Zealand focused on low-level systems, simulation, and aerospace software.  
-I build projects to understand how real systems work, from CPU design and image processing to flight dynamics and embedded systems.
+CS student building low-level systems from scratch. I care about understanding how things actually work, so most of my projects live close to the hardware: CPU emulators, image pipelines, flight computers.
 
-I’m currently developing a hardware-in-the-loop flight testbed in C++ and Python, and competing in aerospace and space-focused hackathons when possible.
-
----
-
-## 🔭 Current Work
-
-### **[Project Aphelion](https://github.com/aayushpx/project-aphelion)**
-A hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion.
-
-The ESP32 acts as a lightweight flight computer streaming real sensor data, while Python handles trajectory propagation, state estimation, and mission-side analysis.
-
-Currently implementing a 3DOF trajectory propagator using RK4 integration.
-
-**Stack:** Embedded C++ · ESP-IDF v5.2 · Python · NumPy · ESP32-WROOM
+Right now I'm building a hardware-in-the-loop flight testbed and competing in aerospace hackathons when I can.
 
 ---
 
-## 🏆 Hackathons
+## Current Focus
 
-### 🛰️ [OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard) - *ActInSpace New Zealand 2026*
-AI system for satellite collision avoidance decision-making.
+### [Project Aphelion](https://github.com/aayushpx/project-aphelion)
+Hardware-in-the-loop flight dynamics testbed. An ESP32 streams live sensor data while Python handles trajectory propagation and state estimation. Currently implementing a 3DOF propagator with RK4 integration.
 
-**Role:** Team Lead - product direction, system design, pitch  
-**Stack:** Python · PyTorch · TypeScript
-
----
-
-### 🌌 [Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) - *NASA Space Apps New Zealand 2025* (2nd Place)
-ML pipeline converting telescope data into 3D habitability visualisations.
-
-**Role:** ML pipeline development, Random Forest modelling, habitability scoring  
-**Stack:** Python · scikit-learn · Flask · Three.js · Docker
+`Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
 
 ---
 
-## 🌐 Other Projects
+## Hackathons
 
-### [Connected Component Detector (C++)](https://github.com/aayushpx/connected-component-detector)
-Image processing pipeline that detects and classifies connected regions in binary PPM images using DFS flood-fill.
+**[OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)** — ActInSpace New Zealand 2026
+AI system for satellite collision avoidance. Led the team across product direction, system design, and pitch.
+`Python` `PyTorch` `TypeScript`
 
-**Focus:** graph-based image segmentation, recursive search, manual image parsing
-
----
-
-### [16-bit CPU Simulator (C++)](https://github.com/aayushpx/16bit-cpu-simulator)
-A custom 16-bit CPU architecture emulator implementing a full fetch-decode-execute cycle with registers, memory, and a small instruction set.
-
-**Focus:** computer architecture, ISA design, CPU simulation
+**[Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025)** — NASA Space Apps NZ 2025, 2nd Place
+ML pipeline turning telescope data into 3D habitability visualisations. Built the Random Forest model and habitability scoring system.
+`Python` `scikit-learn` `Flask` `Three.js` `Docker`
 
 ---
 
-### [Binary ↔ Decimal Converter (C++)](https://github.com/aayushpx/binary-decimal-converter)
-CLI tool for base conversion with validation and error handling.
+## Projects
 
-**Focus:** number systems, bitwise reasoning, CLI design
-
----
-
-### [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer)
-Low-level 2D software renderer exploring how images are constructed from raw pixel data.
-
----
-
-### [MUITSA Website](https://aayushpx.github.io/muitsa-site/)
-Student association website built with AI-assisted development workflows, focusing on modular architecture and automated deployment via GitHub Actions.
+| Project | What it is |
+|---|---|
+| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | Graph-based image segmentation in C++. DFS flood-fill on raw PPM data, no libraries. |
+| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers, and memory. |
+| [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API. |
+| [Binary/Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with validation and error handling. |
+| [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deployment. |
 
 ---
 
-## 🛠️ Skills
+## Skills
 
-### Languages
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
-
-### ML & Data
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
-### Embedded & Tools
 ![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)

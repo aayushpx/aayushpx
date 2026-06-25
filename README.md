@@ -48,6 +48,7 @@ ML pipeline converting telescope data into 3D habitability visualisations.
 | [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images to detect and classify connected regions. No libraries. | `C++` |
 | [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API, just math and memory. | `C++` |
 | [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with input validation and error handling. | `C++` |
+| [Discrete Mathematics Notes and Proofs](https://github.com/aayushpx/mathematical-proofs-and-discrete-structures)  | Structured LaTeX repository of mathematical proofs and notes covering logic, induction, algebra, relations, and coding theory. | LaTeX |
 | [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deployment. | `HTML/CSS/JS` |
 
 ---

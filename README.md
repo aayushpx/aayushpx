@@ -1,9 +1,11 @@
 # Aayush Prakash
-**`Embedded Systems · Aerospace Software · New Zealand`**
+**`Embedded Systems · Aerospace Software`**
 
-CS student building things close to the metal. I work on low-level systems, flight software, and simulation projects because I want to understand how real systems actually work, not just use them.
+**CS student in New Zealand.**
 
-Currently developing a hardware-in-the-loop flight testbed and competing in aerospace hackathons when I can find them.
+I got into programming to understand how systems work under the hood. I tend to take things apart until they fully click, then rebuild them from first principles.
+
+Most of what I build comes from that process.
 
 ---
 

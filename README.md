@@ -42,8 +42,8 @@ ML pipeline converting telescope data into 3D habitability visualisations.
 
 | Project | What it does | Stack |
 |---|---|---|
-| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images to detect and classify connected regions. No libraries. | `C++` |
 | [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers, and memory. | `C++` |
+| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images to detect and classify connected regions. No libraries. | `C++` |
 | [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API, just math and memory. | `C++` |
 | [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with input validation and error handling. | `C++` |
 | [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deployment. | `HTML/CSS/JS` |

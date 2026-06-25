@@ -1,50 +1,76 @@
 # Aayush Prakash
 **`Embedded Systems · Aerospace Software`**
 
-CS student in New Zealand. 
-I build things to learn - currently a flight dynamics testbed in C++ and Python 
-that I'm using to explore aerospace software engineering. Also compete in space 
-hackathons when I get the chance.
+CS student in New Zealand focused on low-level systems, simulation, and aerospace software.  
+I build projects to understand how real systems work, from CPU design and image processing to flight dynamics and embedded systems.
+
+I’m currently developing a hardware-in-the-loop flight testbed in C++ and Python, and competing in aerospace and space-focused hackathons when possible.
 
 ---
 
-## 🔭 What I'm Working On
+## 🔭 Current Work
 
-### **[Project Aphelion](https://github.com/aayushpx/project-aphelion)**  
-A hardware-in-the-loop flight dynamics testbed. The ESP32 acts as a flight 
-computer streaming real sensor data; Python handles trajectory propagation, 
-state estimation, and dispersion analysis on the mission control side.
+### **[Project Aphelion](https://github.com/aayushpx/project-aphelion)**
+A hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion.
 
-Currently building: a 3DOF trajectory propagator with RK4 integration.  
+The ESP32 acts as a lightweight flight computer streaming real sensor data, while Python handles trajectory propagation, state estimation, and mission-side analysis.
+
+Currently implementing a 3DOF trajectory propagator using RK4 integration.
+
 **Stack:** Embedded C++ · ESP-IDF v5.2 · Python · NumPy · ESP32-WROOM
 
 ---
 
 ## 🏆 Hackathons
 
-### [🛰️ OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard)
-**ActInSpace New Zealand 2026** | Team Lead \
-AI system for satellite collision avoidance decision-making.  
-**My role:** Team lead, product direction, pitch  
+### 🛰️ OrbitGuard - *ActInSpace New Zealand 2026*
+AI system for satellite collision avoidance decision-making.
+
+**Role:** Team Lead - product direction, system design, pitch  
 **Stack:** Python · PyTorch · TypeScript
 
 ---
 
-### [🌌 Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) (https://celestiai.vip/)
-**NASA Space Apps New Zealand 2025** | 2nd Place | Team Lead \
-ML pipeline turning telescope data into 3D habitability visualisations.  
-**My role:** ML pipeline, Random Forest training, habitability scoring  
+### 🌌 Exoplanet Explorer - *NASA Space Apps New Zealand 2025* (2nd Place)
+ML pipeline converting telescope data into 3D habitability visualisations.
+
+**Role:** ML pipeline development, Random Forest modelling, habitability scoring  
 **Stack:** Python · scikit-learn · Flask · Three.js · Docker
 
 ---
+
 ## 🌐 Other Projects
 
-### [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) (PPM Image Renderer)
-Low-level 2D graphics project exploring how images are built from pixels in C++.
+### [Connected Component Detector (C++)](https://github.com/aayushpx/connected-component-detector)
+Image processing pipeline that detects and classifies connected regions in binary PPM images using DFS flood-fill.
 
-### [MUITSA Website](https://aayushpx.github.io/muitsa-site/)  
-Designed and deployed a student association web platform using AI-assisted development workflows, 
-focusing on modular architecture, responsive UX and automated deployment via GitHub Actions. 
+**Focus:** graph-based image segmentation, recursive search, manual image parsing
+
+---
+
+### [16-bit CPU Simulator (C++)](https://github.com/aayushpx/16bit-cpu-simulator)
+A custom 16-bit CPU architecture emulator implementing a full fetch-decode-execute cycle with registers, memory, and a small instruction set.
+
+**Focus:** computer architecture, ISA design, CPU simulation
+
+---
+
+### [Binary ↔ Decimal Converter (C++)](https://github.com/aayushpx/binary-decimal-converter)
+CLI tool for base conversion with validation and error handling.
+
+**Focus:** number systems, bitwise reasoning, CLI design
+
+---
+
+### [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer)
+Low-level 2D software renderer exploring how images are constructed from raw pixel data.
+
+---
+
+### [MUITSA Website](https://aayushpx.github.io/muitsa-site/)
+Student association website built with AI-assisted development workflows, focusing on modular architecture and automated deployment via GitHub Actions.
+
+---
 
 ## 🛠️ Skills
 
@@ -65,4 +91,3 @@ focusing on modular architecture, responsive UX and automated deployment via Git
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-

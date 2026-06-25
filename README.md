@@ -32,7 +32,7 @@ AI system for satellite collision avoidance decision-making.
 ### 🌌 [Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) · *NASA Space Apps New Zealand 2025* · 🥈 2nd Place
 ML pipeline converting telescope data into 3D habitability visualisations.
 
-**Role:** ML pipeline, Random Forest modelling, habitability scoring
+**Role:** Team Lead · ML pipeline, Random Forest modelling, habitability scoring
 
 `Python` · `scikit-learn` · `Flask` · `Three.js` · `Docker`
 

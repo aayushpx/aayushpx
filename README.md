@@ -22,11 +22,12 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     loading...
-  streak          loading...
-  total commits   loading...
-└────────────────────────────────────────────────┘
+┌─ LIVE FEED ─────────────────────────────────────┐
+  last commit   aayushpx: Delete scripts/flight…
+  streak        6 days                          
+  commits       1083 this year                  
+  as of         2026-06-30 11:53 UTC            
+└──────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

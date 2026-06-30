@@ -1,20 +1,21 @@
 <div align="center">
+  
+# aayushpx
 
-# Aayush Prakash
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=900&color=A8E6A1&center=true&vCenter=true&width=650&lines=T-09%3A00%3A00+AND+COUNTING;SYSTEM%3A+NOMINAL;PAYLOAD%3A+CURIOSITY;GO+FOR+LAUNCH" alt="Typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=1800&pause=700&color=39FF14&center=true&vCenter=true&width=650&lines=T-09%3A00%3A00+AND+COUNTING;SYSTEM+STATUS%3A+NOMINAL;PAYLOAD%3A+CURIOSITY;GO+FOR+LAUNCH" />
 
 </div>
 
-I got into programming to understand how systems work under the hood. I tend to take things apart until they fully click, then rebuild them from first principles. Most of what I build comes from that process.
+<p align="center">
+  <strong><code>SIMULATION · EMBEDDED · EXPERIMENTATION</code></strong>
+</p>
 
 ---
 
-## Currently
-
-- Studying Computer Science
+## CURRENTLY
+- Studying computer science
 - Building a hardware-in-the-loop flight dynamics testbed
-- Tinkering with a small evolution simulator on the side
+- Developing a small evolution simulation system
 
 ---
 

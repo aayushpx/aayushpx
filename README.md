@@ -20,11 +20,10 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     loading...
-  streak          loading...
-  total commits   loading...
-└────────────────────────────────────────────────┘
+last commit     aayushpx: Update README with new formatting and live feed changes (0m ago)
+streak          6 days
+total commits   1061 contributions in the last year
+as of           2026-06-30 11:21 UTC
 ```
 <!--LIVE:END-->
 

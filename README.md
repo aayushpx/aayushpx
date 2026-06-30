@@ -21,7 +21,7 @@ I got into programming to understand how systems work under the hood. I tend to 
 <!--LIVE:START-->
 ```
 ┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     aayushpx: Format README output with a live feed style (0m ago)
+  last commit     aayushpx: chore: update live feed (0m ago)
   streak          6 days
   total commits   1059 contributions in the last year
   as of           2026-06-30 11:22 UTC

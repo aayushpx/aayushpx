@@ -1,6 +1,8 @@
 # Aayush Prakash
 
-**Embedded Systems / ML / Aerospace Software**
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=900&color=A8E6A1&center=false&vCenter=true&width=650&lines=T-09%3A00%3A00+AND+COUNTING;SYSTEM%3A+NOMINAL;PAYLOAD%3A+CURIOSITY;GO+FOR+LAUNCH" alt="Typing animation" />
+</p>
 
 I got into programming to understand how systems work under the hood. I tend to take things apart until they fully click, then rebuild them from first principles. Most of what I build comes from that process.
 
@@ -18,19 +20,16 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-last commit     aayushpx: chore: update live feed (0m ago)
-streak          6 days
-total commits   1061 contributions in the last year
-as of           2026-06-30 11:09 UTC
+┌─ LIVE FEED ──────────────────────────────────┐
+  last commit     loading...
+  streak          loading...
+  total commits   loading...
+└────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=aayushpx&theme=dracula&no-frame=true&no-bg=true&margin-w=4&row=1" />
 </p>
 
 ---
@@ -48,14 +47,14 @@ Currently implementing a 3DOF propagator using RK4 integration, with quaternion 
 ## Hackathons
 
 **[OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard), ActInSpace New Zealand 2026**
-AI system for satellite collision avoidance decision-making. Skip-connection LSTM modeling how collision risk evolves over time, built in 24 hours.
-Role: Team Lead, product direction, system design, pitch
-`Python` `PyTorch` `TypeScript`
+<br>AI system for satellite collision avoidance decision-making. Skip-connection LSTM modeling how collision risk evolves over time, built in 24 hours.
+<br>Role: Team Lead, product direction, system design, pitch
+<br>`Python` `PyTorch` `TypeScript`
 
 **[Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025), NASA Space Apps New Zealand 2025, 2nd Place**
-ML pipeline converting telescope data into 3D habitability visualisations.
-Role: Team Lead, ML pipeline, Random Forest modelling, habitability scoring
-`Python` `scikit-learn` `Flask` `Three.js` `Docker`
+<br>ML pipeline converting telescope data into 3D habitability visualisations.
+<br>Role: Team Lead, ML pipeline, Random Forest modelling, habitability scoring
+<br>`Python` `scikit-learn` `Flask` `Three.js` `Docker`
 
 ---
 
@@ -77,5 +76,5 @@ No frameworks, no shortcuts. The point was understanding the machine, not shippi
 ## Skills
 
 **Languages:** C++, Python, R, LaTeX
-**ML & Data:** scikit-learn, PyTorch, Pandas
-**Embedded & Tools:** ESP-IDF, Git, Docker, Linux
+<br>**ML & Data:** scikit-learn, PyTorch, Pandas
+<br>**Embedded & Tools:** ESP-IDF, Git, Docker, Linux

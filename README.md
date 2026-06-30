@@ -1,74 +1,98 @@
 # Aayush Prakash
-**`Embedded Systems · ML · Aerospace Software`**
 
-I got into programming to understand how systems work under the hood. I tend to take things apart until they fully click, then rebuild them from first principles.
+```
+SYSTEM      Embedded Systems / ML / Aerospace Software
+LOCATION    New Zealand
+STATUS      See live feed below
+```
 
-Most of what I build comes from that process.
-
----
-
-## 🔭 Current Work
-
-### [Project Aphelion](https://github.com/aayushpx/project-aphelion)
-A hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. The ESP32 runs as a lightweight flight computer streaming live sensor data, while Python handles trajectory propagation, state estimation, and mission-side analysis.
-
-Currently implementing a 3DOF propagator using RK4 integration.
-
-`Embedded C++` · `ESP-IDF v5.2` · `Python` · `NumPy` · `ESP32-WROOM`
+I got into programming to understand how systems work under the hood, I tend to take things apart until they fully click, then rebuild them from first principles. Most of what I build comes from that process.
 
 ---
 
-## 🏆 Hackathons
+## Currently
 
-### 🛰️ [OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard) · *ActInSpace New Zealand 2026*
-AI system for satellite collision avoidance decision-making.
-
-**Role:** Team Lead · product direction, system design, pitch
-
-`Python` · `PyTorch` · `TypeScript`
-
----
-
-### 🌌 [Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) · *NASA Space Apps New Zealand 2025* · 🥈 2nd Place
-ML pipeline converting telescope data into 3D habitability visualisations.
-
-**Role:** Team Lead · ML pipeline, Random Forest modelling, habitability scoring
-
-`Python` · `scikit-learn` · `Flask` · `Three.js` · `Docker`
+```
+> studying            Computer Science
+> building            Project Aphelion, flight dynamics testbed
+> building            Evolution Simulator, agent based ecosystem model
+```
 
 ---
 
-## 🌐 Other Projects
+## Live Feed
 
-| Project | What it does | Stack |
-|---|---|---|
-| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers, and memory. | `C++` |
-| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images to detect and classify connected regions. No libraries. | `C++` |
-| [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API, just math and memory. | `C++` |
-| [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with input validation and error handling. | `C++` |
-| [Discrete Mathematics Notes and Proofs](https://github.com/aayushpx/mathematical-proofs-and-discrete-structures)  | Structured LaTeX system for formalising mathematical reasoning across logic, algebra, coding theory, and discrete structures. | `LaTeX` |
-| [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deployment. | `HTML/CSS/JS` |
+<!--LIVE:START-->
+```
+last commit     loading...
+streak          loading...
+total commits   loading...
+```
+<!--LIVE:END-->
+
+*Updates automatically via GitHub Actions, see [the workflow](.github/workflows/update-readme.yml).*
 
 ---
 
-## 🛠️ Skills
+## Active — Project Aphelion
 
-**Languages**
+Hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. An ESP32 runs as a lightweight flight computer streaming live sensor telemetry, while Python handles trajectory propagation, state estimation, and mission-side analysis.
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+```
+PROPAGATOR    3DOF, RK4 integration
+TARGET        Quaternion attitude kinematics, J2 perturbation model
+HARDWARE      ESP32-WROOM, ESP-IDF v5.2
+GROUND        Python, NumPy
+```
 
-**ML & Data**
+→ [github.com/aayushpx/project-aphelion](https://github.com/aayushpx/project-aphelion)
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+---
 
-**Embedded & Tools**
+## Active — Evolution Simulator
 
-![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+Agent based ecosystem simulator exploring how simple survival and reproduction rules produce emergent population dynamics over generations.
+
+→ link coming soon
+
+---
+
+## Hackathons
+
+**OrbitGuard** — ActInSpace New Zealand 2026
+AI system for satellite collision avoidance decision-making. Skip-connection LSTM modeling how collision risk evolves over time, built in 24 hours.
+`Team Lead, product direction, system design, pitch`
+`Python · PyTorch · TypeScript`
+→ [github.com/CelestiAI-Org/Orbitguard](https://github.com/CelestiAI-Org/Orbitguard)
+
+**Exoplanet Explorer** — NASA Space Apps New Zealand 2025 · 2nd Place
+ML pipeline converting telescope data into 3D habitability visualizations.
+`Team Lead, ML pipeline, Random Forest modelling, habitability scoring`
+`Python · scikit-learn · Flask · Three.js · Docker`
+→ [github.com/CelestiAI-Org/nasa-hackathon-2025](https://github.com/CelestiAI-Org/nasa-hackathon-2025)
+
+---
+
+## Systems Built From Scratch
+
+No frameworks, no shortcuts, the point was understanding the machine, not shipping fast.
+
+| Project | Detail |
+|---|---|
+| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA. Full fetch-decode-execute cycle, registers, memory. |
+| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images. No image libraries. |
+| [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer from raw pixel writes. No graphics API. |
+| [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion with full input validation. |
+| [Discrete Math: Notes & Proofs](https://github.com/aayushpx/mathematical-proofs-and-discrete-structures) | LaTeX system formalizing reasoning across logic, algebra, coding theory. |
+
+**Also:** [MUITSA Website](https://aayushpx.github.io/muitsa-site/), student association site, modular architecture, CI/CD via GitHub Actions.
+
+---
+
+## Stack
+
+```
+Languages         C++ · Python · R · LaTeX
+ML / Data         scikit-learn · PyTorch · Pandas
+Embedded / Tools  ESP-IDF · Git · Docker · Linux
+```

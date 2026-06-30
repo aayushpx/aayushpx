@@ -36,7 +36,7 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 Hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. An ESP32 runs as a lightweight flight computer streaming live sensor telemetry, while Python handles trajectory propagation, state estimation, and mission-side analysis.
 
-Currently implementing a 3DOF propagator using RK4 integration, with quaternion attitude kinematics and a J2 perturbation model.
+Currently implementing a 3DOF propagator using RK4 integration.
 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
 
@@ -57,8 +57,6 @@ Currently implementing a 3DOF propagator using RK4 integration, with quaternion 
 ---
 
 ## Systems Built From Scratch
-
-No frameworks, no shortcuts. The point was understanding the machine, not shipping fast.
 
 | Project | What it does | Stack |
 |---|---|---|

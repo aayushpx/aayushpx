@@ -22,12 +22,11 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ─────────────────────────────────────┐
-  last commit   aayushpx: Delete flight_trace.s…
-  streak        6 days                          
-  commits       1079 this year                  
-  as of         2026-06-30 11:51 UTC            
-└──────────────────────────────────────────────────┘
+┌─ LIVE FEED ──────────────────────────────────┐
+  last commit     loading...
+  streak          loading...
+  total commits   loading...
+└────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 
@@ -40,12 +39,6 @@ Hardware-in-the-loop flight dynamics testbed for simulating and validating space
 Currently implementing a 3DOF propagator using RK4 integration, with quaternion attitude kinematics and a J2 perturbation model.
 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/main/flight_trace.svg" width="500" alt="suborbital flight trace" />
-  <br>
-  <sub>RK4 powered ascent and ballistic flight, regenerated daily from the propagator model</sub>
-</p>
 
 ---
 

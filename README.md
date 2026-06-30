@@ -18,9 +18,10 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-last commit     loading...
-streak          loading...
-total commits   loading...
+last commit     aayushpx: Merge pull request #1 from aayushpx/aayushpx-patch-1 (0m ago)
+streak          6 days
+total commits   1059 contributions in the last year
+as of           2026-06-30 11:02 UTC
 ```
 <!--LIVE:END-->
 

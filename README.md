@@ -1,8 +1,10 @@
+<div align="center">
+
 # Aayush Prakash
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=900&color=A8E6A1&center=false&vCenter=true&width=650&lines=T-09%3A00%3A00+AND+COUNTING;SYSTEM%3A+NOMINAL;PAYLOAD%3A+CURIOSITY;GO+FOR+LAUNCH" alt="Typing animation" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=900&color=A8E6A1&center=true&vCenter=true&width=650&lines=T-09%3A00%3A00+AND+COUNTING;SYSTEM%3A+NOMINAL;PAYLOAD%3A+CURIOSITY;GO+FOR+LAUNCH" alt="Typing animation" />
+
+</div>
 
 I got into programming to understand how systems work under the hood. I tend to take things apart until they fully click, then rebuild them from first principles. Most of what I build comes from that process.
 
@@ -21,17 +23,12 @@ I got into programming to understand how systems work under the hood. I tend to 
 <!--LIVE:START-->
 ```
 ┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     aayushpx: chore: update live feed (0m ago)
-  streak          6 days
-  total commits   1059 contributions in the last year
-  as of           2026-06-30 11:22 UTC
+  last commit     loading...
+  streak          loading...
+  total commits   loading...
 └────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" />
-</p>
 
 ---
 
@@ -79,3 +76,13 @@ No frameworks, no shortcuts. The point was understanding the machine, not shippi
 **Languages:** C++, Python, R, LaTeX
 <br>**ML & Data:** scikit-learn, PyTorch, Pandas
 <br>**Embedded & Tools:** ESP-IDF, Git, Docker, Linux
+
+---
+
+<div align="center">
+
+---
+
+<img src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" width="800" />
+
+</div>

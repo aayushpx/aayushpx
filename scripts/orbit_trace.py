@@ -11,8 +11,9 @@ import math
 
 MU = 398600.4418  # earth standard gravitational parameter, km^3/s^2
 
-# initial state: a simple eccentric orbit, position (km) and velocity (km/s)
-state0 = [8000.0, 0.0, 0.0, 7.2]  # x, y, vx, vy
+# initial state: deliberately eccentric orbit so the trace is visually obvious,
+# position (km) and velocity (km/s), perigee well clear of earth's surface
+state0 = [8000.0, 0.0, 0.0, 8.0]  # x, y, vx, vy
 
 
 def derivatives(state):
@@ -34,7 +35,7 @@ def rk4_step(state, dt):
     ]
 
 
-def simulate(steps=1500, dt=20.0):
+def simulate(steps=620, dt=20.0):
     state = state0[:]
     points = []
     for _ in range(steps):

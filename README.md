@@ -22,12 +22,12 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     aayushpx: Modify update-readme workflow for concurrency and rebase (0m ago)
-  streak          6 days
-  total commits   1072 contributions in the last year
-  as of           2026-06-30 11:41 UTC
-└────────────────────────────────────────────────┘
+┌─ LIVE FEED ─────────────────────────────────────┐
+  last commit   aayushpx: Refactor last commit …
+  streak        6 days                          
+  commits       1072 this year                  
+  as of         2026-06-30 11:45 UTC            
+└──────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

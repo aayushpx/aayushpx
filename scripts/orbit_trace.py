@@ -64,8 +64,20 @@ def render_svg(points, path="orbit_trace.svg"):
     earth_r = 6371 * scale  # earth radius drawn to scale
 
     svg = f'''<svg viewBox="0 0 {size} {size}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGradient" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#7fb3e0"/>
+      <stop offset="45%" stop-color="#3a6ea5"/>
+      <stop offset="100%" stop-color="#1e3f5c"/>
+    </radialGradient>
+    <radialGradient id="atmosphere" cx="50%" cy="50%" r="50%">
+      <stop offset="80%" stop-color="#7fb3e0" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#7fb3e0" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
   <rect width="{size}" height="{size}" fill="none"/>
-  <circle cx="{earth_x:.2f}" cy="{earth_y:.2f}" r="{earth_r:.2f}" fill="#3a6ea5" opacity="0.85"/>
+  <circle cx="{earth_x:.2f}" cy="{earth_y:.2f}" r="{earth_r * 1.18:.2f}" fill="url(#atmosphere)"/>
+  <circle cx="{earth_x:.2f}" cy="{earth_y:.2f}" r="{earth_r:.2f}" fill="url(#earthGradient)"/>
   <path d="{path_data}" fill="none" stroke="#A8E6A1" stroke-width="1.6"/>
   <circle cx="{points[0][0]*scale + size/2:.2f}" cy="{size/2 - points[0][1]*scale:.2f}" r="3" fill="#ffffff"/>
 </svg>'''

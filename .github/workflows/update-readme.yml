@@ -31,14 +31,11 @@ jobs:
           GH_USERNAME: aayushpx
         run: python scripts/update_readme.py
 
-      - name: Generate flight trace
-        run: python scripts/flight_trace.py
-
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md flight_trace.svg
+          git add README.md
           git diff --cached --quiet || git commit -m "chore: update live feed"
           git pull --rebase -X ours origin main
           git push

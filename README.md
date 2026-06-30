@@ -13,7 +13,7 @@ I got into programming to understand how systems work under the hood. I tend to 
 ## Currently
 
 - Studying Computer Science
-- Building [Project Aphelion](https://github.com/aayushpx/project-aphelion), a flight dynamics testbed
+- Building a hardware-in-the-loop flight dynamics testbed
 - Tinkering with a small evolution simulator on the side
 
 ---
@@ -23,10 +23,9 @@ I got into programming to understand how systems work under the hood. I tend to 
 <!--LIVE:START-->
 ```
 ┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     aayushpx: Modify initial orbit state and simulation parameters (0m ago)
-  streak          6 days
-  total commits   1064 contributions in the last year
-  as of           2026-06-30 11:31 UTC
+  last commit     loading...
+  streak          loading...
+  total commits   loading...
 └────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
@@ -40,6 +39,12 @@ Hardware-in-the-loop flight dynamics testbed for simulating and validating space
 Currently implementing a 3DOF propagator using RK4 integration, with quaternion attitude kinematics and a J2 perturbation model.
 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/main/orbit_trace.svg" width="320" alt="RK4 orbit trace" />
+  <br>
+  <sub>live RK4 propagation, regenerated daily</sub>
+</p>
 
 ---
 
@@ -82,7 +87,7 @@ No frameworks, no shortcuts. The point was understanding the machine, not shippi
 
 <div align="center">
 
----
+### Contribution Activity
 
 <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" width="800" />
 

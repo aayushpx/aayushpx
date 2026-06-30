@@ -30,10 +30,13 @@ jobs:
           GH_USERNAME: aayushpx
         run: python scripts/update_readme.py
 
+      - name: Generate orbit trace
+        run: python scripts/orbit_trace.py
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md orbit_trace.svg
           git diff --cached --quiet || git commit -m "chore: update live feed"
           git push

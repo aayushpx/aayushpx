@@ -109,8 +109,8 @@ def main():
 
     streak = compute_streak(days)
     latest = most_recent_commit(user["repositories"]["nodes"])
-
     now = datetime.now(timezone.utc)
+
     if latest:
         commit_date, repo_name, headline = latest
         delta = now - commit_date
@@ -120,18 +120,36 @@ def main():
             when = f"{int(delta.total_seconds() // 3600)}h ago"
         else:
             when = f"{delta.days}d ago"
-        last_commit_line = f"{repo_name}: {headline} ({when})"
+        last_commit_line = f"{repo_name}: {headline}"
     else:
         last_commit_line = "no recent commits found"
+        when = ""
 
+    # fixed inner width for the box, every line gets truncated/padded to fit
+    inner_width = 46
+    label_width = 14
+
+    def fit(label, value):
+        text = f"{value}"
+        max_value_len = inner_width - label_width
+        if len(text) > max_value_len:
+            text = text[: max_value_len - 1] + "…"
+        line = f"{label:<{label_width}}{text}"
+        return f"  {line:<{inner_width}}"
+
+    rows = [
+        fit("last commit", f"{last_commit_line} ({when})" if when else last_commit_line),
+        fit("streak", f"{streak} day{'s' if streak != 1 else ''}"),
+        fit("commits", f"{total} this year"),
+        fit("as of", now.strftime("%Y-%m-%d %H:%M UTC")),
+    ]
+
+    border_len = inner_width + 4
     block = (
         "```\n"
-        "┌─ LIVE FEED ──────────────────────────────────┐\n"
-        f"  last commit     {last_commit_line}\n"
-        f"  streak          {streak} day{'s' if streak != 1 else ''}\n"
-        f"  total commits   {total} contributions in the last year\n"
-        f"  as of           {now.strftime('%Y-%m-%d %H:%M UTC')}\n"
-        "└────────────────────────────────────────────────┘\n"
+        f"┌─ LIVE FEED {'─' * (border_len - 13)}┐\n"
+        + "\n".join(rows) + "\n"
+        + f"└{'─' * border_len}┘\n"
         "```"
     )
 

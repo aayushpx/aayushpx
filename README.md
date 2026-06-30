@@ -23,10 +23,9 @@ I got into programming to understand how systems work under the hood. I tend to 
 <!--LIVE:START-->
 ```
 ┌─ LIVE FEED ──────────────────────────────────┐
-  last commit     aayushpx: chore: update live feed (0m ago)
-  streak          6 days
-  total commits   1064 contributions in the last year
-  as of           2026-06-30 11:34 UTC
+  last commit     loading...
+  streak          loading...
+  total commits   loading...
 └────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
@@ -42,9 +41,9 @@ Currently implementing a 3DOF propagator using RK4 integration, with quaternion 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/main/orbit_trace.svg" width="320" alt="RK4 orbit trace" />
+  <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/main/flight_trace.svg" width="500" alt="suborbital flight trace" />
   <br>
-  <sub>live RK4 propagation, regenerated daily</sub>
+  <sub>RK4 powered ascent and ballistic flight, regenerated daily from the propagator model</sub>
 </p>
 
 ---

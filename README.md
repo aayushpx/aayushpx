@@ -9,8 +9,8 @@ I got into programming to understand how systems work under the hood. I tend to 
 ## Currently
 
 - Studying Computer Science
-- Building Project Aphelion, a flight dynamics testbed
-- Building an evolution simulator, an agent based ecosystem model
+- Building [Project Aphelion](https://github.com/aayushpx/project-aphelion), a flight dynamics testbed
+- Tinkering with a small evolution simulator on the side
 
 ---
 
@@ -18,16 +18,23 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-last commit     aayushpx: chore: update live feed (0m ago)
-streak          6 days
-total commits   1059 contributions in the last year
-as of           2026-06-30 11:03 UTC
+last commit     loading...
+streak          loading...
+total commits   loading...
 ```
 <!--LIVE:END-->
 
+<p align="left">
+  <img src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=aayushpx&theme=dracula&no-frame=true&no-bg=true&margin-w=4&row=1" />
+</p>
+
 ---
 
-## Project Aphelion
+## [Project Aphelion](https://github.com/aayushpx/project-aphelion)
 
 Hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. An ESP32 runs as a lightweight flight computer streaming live sensor telemetry, while Python handles trajectory propagation, state estimation, and mission-side analysis.
 
@@ -35,29 +42,19 @@ Currently implementing a 3DOF propagator using RK4 integration, with quaternion 
 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
 
-[github.com/aayushpx/project-aphelion](https://github.com/aayushpx/project-aphelion)
-
----
-
-## Evolution Simulator
-
-Agent based ecosystem simulator exploring how simple survival and reproduction rules produce emergent population dynamics over generations.
-
 ---
 
 ## Hackathons
 
-**OrbitGuard, ActInSpace New Zealand 2026**
+**[OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard), ActInSpace New Zealand 2026**
 AI system for satellite collision avoidance decision-making. Skip-connection LSTM modeling how collision risk evolves over time, built in 24 hours.
 Role: Team Lead, product direction, system design, pitch
 `Python` `PyTorch` `TypeScript`
-[github.com/CelestiAI-Org/Orbitguard](https://github.com/CelestiAI-Org/Orbitguard)
 
-**Exoplanet Explorer, NASA Space Apps New Zealand 2025, 2nd Place**
+**[Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025), NASA Space Apps New Zealand 2025, 2nd Place**
 ML pipeline converting telescope data into 3D habitability visualisations.
 Role: Team Lead, ML pipeline, Random Forest modelling, habitability scoring
 `Python` `scikit-learn` `Flask` `Three.js` `Docker`
-[github.com/CelestiAI-Org/nasa-hackathon-2025](https://github.com/CelestiAI-Org/nasa-hackathon-2025)
 
 ---
 

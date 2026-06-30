@@ -22,12 +22,11 @@ I got into programming to understand how systems work under the hood. I tend to 
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ─────────────────────────────────────┐
-  last commit   aayushpx: Delete scripts/flight…
-  streak        6 days                          
-  commits       1083 this year                  
-  as of         2026-06-30 11:53 UTC            
-└──────────────────────────────────────────────────┘
+┌─ LIVE FEED ──────────────────────────────────┐
+  last commit     loading...
+  streak          loading...
+  total commits   loading...
+└────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 
@@ -84,6 +83,10 @@ No frameworks, no shortcuts. The point was understanding the machine, not shippi
 
 ### Contribution Activity
 
-<img src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" width="800" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake.svg" width="800" />
+</picture>
 
 </div>

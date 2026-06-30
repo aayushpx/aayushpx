@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <strong><code>SIMULATION · EMBEDDED · EXPERIMENTATION</code></strong>
+  <strong><code>SIMULATION · EMBEDDED · ML</code></strong>
 </p>
 
 ---

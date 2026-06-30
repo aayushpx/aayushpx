@@ -126,10 +126,12 @@ def main():
 
     block = (
         "```\n"
-        f"last commit     {last_commit_line}\n"
-        f"streak          {streak} day{'s' if streak != 1 else ''}\n"
-        f"total commits   {total} contributions in the last year\n"
-        f"as of           {now.strftime('%Y-%m-%d %H:%M UTC')}\n"
+        "┌─ LIVE FEED ──────────────────────────────────┐\n"
+        f"  last commit     {last_commit_line}\n"
+        f"  streak          {streak} day{'s' if streak != 1 else ''}\n"
+        f"  total commits   {total} contributions in the last year\n"
+        f"  as of           {now.strftime('%Y-%m-%d %H:%M UTC')}\n"
+        "└────────────────────────────────────────────────┘\n"
         "```"
     )
 

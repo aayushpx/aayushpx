@@ -1,21 +1,16 @@
 <div align="center">
-  
+
 # aayushpx
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=1800&pause=700&color=39FF14&center=true&vCenter=true&width=650&lines=T-09%3A00%3A00+AND+COUNTING;SYSTEM+STATUS%3A+NOMINAL;PAYLOAD%3A+CURIOSITY;GO+FOR+LAUNCH" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=1800&pause=700&color=39FF14&center=true&vCenter=true&width=650&lines=SYSTEM+STATUS%3A+NOMINAL;BUILDING+FROM+FIRST+PRINCIPLES;SIMULATION+%7C+EMBEDDED+%7C+ML" />
 
 </div>
-
-<p align="center">
-  <strong><code>SIMULATION · EMBEDDED · ML</code></strong>
-</p>
-
----
 
 ## CURRENTLY
 - Studying computer science
 - Building a hardware-in-the-loop flight dynamics testbed
 - Developing a small evolution simulation system
+- Building out `statsforensics`, an R package for statistical analysis workflows
 
 ---
 
@@ -24,10 +19,10 @@
 <!--LIVE:START-->
 ```
 ┌─ LIVE FEED ─────────────────────────────────────┐
-  last commit   aayushpx: Update README.md (12m…
-  streak        7 days                          
-  commits       1099 this year                  
-  as of         2026-07-01 09:48 UTC            
+  last commit   project-aphelion: Text output f…
+  streak        6 days                          
+  commits       1085 this year                  
+  as of         2026-06-30 12:27 UTC            
 └──────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
@@ -65,8 +60,16 @@ Currently implementing a 3DOF propagator using RK4 integration.
 | [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers, and memory. | C++ |
 | [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill on raw PPM images to detect and classify connected regions. No libraries. | C++ |
 | [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer built from raw pixel writes. No graphics API, just math and memory. | C++ |
-| [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with input validation and error handling. | C++ |
 | [Discrete Math Notes and Proofs](https://github.com/aayushpx/mathematical-proofs-and-discrete-structures) | Structured LaTeX system formalising mathematical reasoning across logic, algebra, coding theory, and discrete structures. | LaTeX |
+
+---
+
+## Tools & Libraries
+
+| Project | What it does | Stack |
+|---|---|---|
+| [statsforensics](https://github.com/aayushpx/statistical-analysis-toolkit) | R package for exploratory data analysis, hypothesis testing, regression modelling, and diagnostics. | R |
+| [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion tool with input validation and error handling. | C++ |
 | [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deployment. | HTML/CSS/JS |
 
 ---

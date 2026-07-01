@@ -125,24 +125,26 @@ def main():
         last_commit_line = "no recent commits found"
         when = ""
 
-    # fixed inner width for the box, every line gets truncated/padded to fit
-    inner_width = 46
     label_width = 14
 
+    # build raw label/value pairs first, no truncation
+    rows_raw = [
+        ("last commit", f"{last_commit_line} ({when})" if when else last_commit_line),
+        ("streak", f"{streak} day{'s' if streak != 1 else ''}"),
+        ("commits", f"{total} this year"),
+        ("as of", now.strftime("%Y-%m-%d %H:%M UTC")),
+    ]
+
+    # size the box to whatever the longest line actually needs, instead
+    # of a fixed width that silently truncates long commit messages
+    content_width = max(label_width + len(value) for _, value in rows_raw)
+    inner_width = max(content_width, 46)  # never shrink below the old default
+
     def fit(label, value):
-        text = f"{value}"
-        max_value_len = inner_width - label_width
-        if len(text) > max_value_len:
-            text = text[: max_value_len - 1] + "…"
-        line = f"{label:<{label_width}}{text}"
+        line = f"{label:<{label_width}}{value}"
         return f"  {line:<{inner_width}}"
 
-    rows = [
-        fit("last commit", f"{last_commit_line} ({when})" if when else last_commit_line),
-        fit("streak", f"{streak} day{'s' if streak != 1 else ''}"),
-        fit("commits", f"{total} this year"),
-        fit("as of", now.strftime("%Y-%m-%d %H:%M UTC")),
-    ]
+    rows = [fit(label, value) for label, value in rows_raw]
 
     border_len = inner_width + 4
     block = (

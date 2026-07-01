@@ -78,14 +78,6 @@ Currently implementing a 3DOF propagator using RK4 integration.
 <br>**Embedded & Tools:** ESP-IDF, Git, Docker, Linux
 
 ---
-
-<div align="center">
-
-### Contribution Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/aayushpx/aayushpx/output/github-contribution-grid-snake.svg" width="800" />
 </picture>
 

@@ -18,12 +18,12 @@
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ───────────────────────────────────────────────────────────────────┐
-  last commit   the-ml-lab: Merge pull request #1 from aayushpx/setup (3h ago)
-  streak        1 day                                                         
-  commits       1207 this year                                                
-  as of         2026-08-08 06:53 UTC                                          
-└────────────────────────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ───────────────────────────────────────────────────────┐
+  last commit   easyread: feat: initial EasyRead release (12h ago)
+  streak        2 days                                            
+  commits       1257 this year                                    
+  as of         2026-08-09 06:56 UTC                              
+└────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

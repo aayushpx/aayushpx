@@ -18,12 +18,12 @@
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ───────────────────────────────────────────────────────┐
-  last commit   easyread: feat: initial EasyRead release (12h ago)
-  streak        2 days                                            
-  commits       1257 this year                                    
-  as of         2026-08-09 06:56 UTC                              
-└────────────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ─────────────────────────────────────────────────────────────────────────────┐
+  last commit   chrome-playwright-mcp: Merge branch 'utk09-NCL:main' into main (16h ago)
+  streak        3 days                                                                  
+  commits       1278 this year                                                          
+  as of         2026-08-10 07:42 UTC                                                    
+└──────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

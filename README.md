@@ -18,12 +18,12 @@
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ───────────────────────────────────────────────────────────────────┐
-  last commit   functionally-fantastic: update changes from last time (5h ago)
-  streak        5 days                                                        
-  commits       1283 this year                                                
-  as of         2026-08-12 07:25 UTC                                          
-└────────────────────────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ──────────────────────────────────────────────────────────────────┐
+  last commit   functionally-fantastic: partial application covered (19h ago)
+  streak        6 days                                                       
+  commits       1291 this year                                               
+  as of         2026-08-13 07:27 UTC                                         
+└───────────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

@@ -18,12 +18,12 @@
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ────────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (23h ago)
-  streak        2 days                                     
-  commits       1294 this year                             
-  as of         2026-08-18 06:42 UTC                       
-└─────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ───────────────────────────────────────────────┐
+  last commit   aayushpx: chore: update live feed (1d ago)
+  streak        3 days                                    
+  commits       1295 this year                            
+  as of         2026-08-19 06:43 UTC                      
+└────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

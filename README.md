@@ -18,12 +18,12 @@
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ────────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (23h ago)
-  streak        9 days                                     
-  commits       1338 this year                             
-  as of         2026-08-25 06:48 UTC                       
-└─────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ─────────────────────────────────────────────────────────────────────┐
+  last commit   scholarship-radar: chore: initialise scholarship radar (18h ago)
+  streak        10 days                                                         
+  commits       1357 this year                                                  
+  as of         2026-08-26 06:50 UTC                                            
+└──────────────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

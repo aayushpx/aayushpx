@@ -18,12 +18,12 @@
 
 <!--LIVE:START-->
 ```
-┌─ LIVE FEED ───────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (1d ago)
-  streak        11 days                                   
-  commits       1368 this year                            
-  as of         2026-08-27 17:23 UTC                      
-└────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ──────────────────────────────────────────────────────────────┐
+  last commit   TTGODemo: Configure PlatformIO for T-Display S3 (15h ago)
+  streak        12 days                                                  
+  commits       1390 this year                                           
+  as of         2026-08-28 18:16 UTC                                     
+└───────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

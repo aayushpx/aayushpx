@@ -17,14 +17,10 @@
 ## Live Feed
 
 <!--LIVE:START-->
+
+```text
 ```
-┌─ LIVE FEED ──────────────────────────────────────────────────────────────┐
-  last commit   TTGODemo: Configure PlatformIO for T-Display S3 (15h ago)
-  streak        12 days                                                  
-  commits       1390 this year                                           
-  as of         2026-08-28 18:16 UTC                                     
-└───────────────────────────────────────────────────────────────────────────┘
-```
+
 <!--LIVE:END-->
 
 ---

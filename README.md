@@ -7,7 +7,7 @@
 </div>
 
 ## CURRENTLY
-- Studying computer science
+- Pursuing Computer Science and Data Science degrees across two universities
 - Building a hardware-in-the-loop flight dynamics testbed
 - Building privacy-preserving applications with Midnight and Compact
 - Exploring machine learning, embedded systems, and AI agents

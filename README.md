@@ -42,7 +42,6 @@ Currently implementing a 3DOF propagator using RK4 integration.
 ## Hackathons
 
 **[Midnight HR Verification](https://github.com/CelestiAI-Org/midnight-hackathon), Midnight Hackathon 2026**
-
 <br>Privacy-preserving HR verification prototype using Midnight and Compact. Verifies whether a candidate's salary satisfies an approved budget without exposing the underlying salary.
 <br>Role: Team Lead, system design, privacy architecture, integration
 <br>`Midnight` `Compact` `Python` `TypeScript` `Streamlit`

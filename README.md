@@ -9,8 +9,8 @@
 ## CURRENTLY
 - Studying computer science
 - Building a hardware-in-the-loop flight dynamics testbed
-- Developing a small evolution simulation system
-- Building out `statsforensics`, an R package for statistical analysis workflows
+- Building privacy-preserving applications with Midnight and Compact
+- Exploring machine learning, embedded systems, and AI agents
 
 ---
 
@@ -40,6 +40,12 @@ Currently implementing a 3DOF propagator using RK4 integration.
 ---
 
 ## Hackathons
+
+**[Midnight HR Verification](https://github.com/CelestiAI-Org/midnight-hackathon), Midnight Hackathon 2026**
+
+<br>Privacy-preserving HR verification prototype using Midnight and Compact. Verifies whether a candidate's salary satisfies an approved budget without exposing the underlying salary.
+<br>Role: Team Lead, system design, privacy architecture, integration
+<br>`Midnight` `Compact` `Python` `TypeScript` `Streamlit`
 
 **[OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard), ActInSpace New Zealand 2026**
 <br>AI system for satellite collision avoidance decision-making. Skip-connection LSTM modeling how collision risk evolves over time, built in 24 hours.
@@ -77,7 +83,7 @@ Currently implementing a 3DOF propagator using RK4 integration.
 ## Skills
 
 **Languages:** C++, Python, R, LaTeX
-<br>**ML & Data:** scikit-learn, PyTorch, Pandas
+<br>**ML & Data:** scikit-learn, PyTorch, Pandas, NumPy
 <br>**Embedded & Tools:** ESP-IDF, Git, Docker, Linux
 
 ---

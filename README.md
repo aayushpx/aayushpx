@@ -18,14 +18,14 @@
 
 <!--LIVE:START-->
 ```text
-┌─ LIVE FEED ───────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (1d ago)
-  streak        22 days                                   
-  commits       81 this month                             
-  active repos  18 in last 30 days                        
-  recent work   Python · JavaScript · Haskell             
-  as of         2026-09-07 11:46 UTC                      
-└────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ─────────────────────────────────────────────────────────────────────────┐
+  last commit   esp32_FpTest: Merge pull request #1 from aayushpx/esp32_s3 (26m ago)
+  streak        23 days                                                             
+  commits       104 this month                                                      
+  active repos  11 in last 30 days                                                  
+  recent work   Python · C · JavaScript                                             
+  as of         2026-09-08 10:44 UTC                                                
+└──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

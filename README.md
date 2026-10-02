@@ -18,14 +18,14 @@
 
 <!--LIVE:START-->
 ```text
-┌─ LIVE FEED ───────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (1d ago)
-  streak        19 days                                   
-  commits       3 this month                              
-  active repos  7 in last 30 days                         
-  recent work   Python · C · Jupyter Notebook             
-  as of         2026-10-01 12:35 UTC                      
-└────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ────────────────────────────────────────────────┐
+  last commit   aayushpx: chore: update live feed (23h ago)
+  streak        20 days                                    
+  commits       14 this month                              
+  active repos  7 in last 30 days                          
+  recent work   Python · C · Haskell                       
+  as of         2026-10-02 11:59 UTC                       
+└─────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

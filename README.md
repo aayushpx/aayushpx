@@ -18,14 +18,14 @@
 
 <!--LIVE:START-->
 ```text
-┌─ LIVE FEED ────────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (23h ago)
-  streak        31 days                                    
-  commits       203 this month                             
-  active repos  7 in last 30 days                          
-  recent work   C · Python · Haskell                       
-  as of         2026-10-13 13:42 UTC                       
-└─────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ─────────────────────────────────────────────────────────────────┐
+  last commit   the-ml-lab: Merge pull request #5 from aayushpx/GRU (9h ago)
+  streak        32 days                                                     
+  commits       241 this month                                              
+  active repos  7 in last 30 days                                           
+  recent work   C · Jupyter Notebook · Python                               
+  as of         2026-10-14 11:20 UTC                                        
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

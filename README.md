@@ -20,11 +20,11 @@
 ```text
 ┌─ LIVE FEED ────────────────────────────────────────────────┐
   last commit   aayushpx: chore: update live feed (23h ago)
-  streak        2 days                                     
+  streak        0 days                                     
   commits       52 this month                              
-  active repos  5 in last 30 days                          
-  recent work   Python · Jupyter Notebook · C              
-  as of         2026-11-10 14:27 UTC                       
+  active repos  4 in last 30 days                          
+  recent work   Python · Jupyter Notebook                  
+  as of         2026-11-11 13:41 UTC                       
 └─────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->

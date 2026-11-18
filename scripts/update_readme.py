@@ -238,7 +238,13 @@ def build_feed(user):
 
     streak = compute_streak(days)
 
-    repositories = user["repositories"]["nodes"]
+    # Skip the profile repo itself: its daily "update live feed" commit
+    # would otherwise always show up as the latest commit.
+    repositories = [
+        repo
+        for repo in user["repositories"]["nodes"]
+        if repo["name"].lower() != GH_USERNAME.lower()
+    ]
 
     latest = get_latest_commit(repositories)
 

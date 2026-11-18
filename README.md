@@ -1,6 +1,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header-light.svg" width="100%" alt="Aayush Prakash: simulation, embedded systems and machine learning"></picture>
 
-I build things where software meets physics and hardware: microcontrollers, orbital mechanics and machine learning, mostly in C, C++ and Python. Studying Computer Science and Data Science in New Zealand.
+Most of my projects start with *"how hard could it be?"* and end with a breadboard covered in jumper wires.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/s1-projects-dark.svg"><img src="assets/s1-projects-light.svg" width="100%" alt="Projects"></picture>
 

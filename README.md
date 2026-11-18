@@ -31,14 +31,14 @@ I build things where software meets physics and hardware: microcontrollers, orbi
 
 <!--LIVE:START-->
 ```text
-┌─ LIVE FEED ───────────────────────────────────────────────┐
-  last commit   aayushpx: chore: update live feed (1d ago)
-  streak        5 days                                    
-  commits       130 this month                            
-  active repos  3 in last 30 days                         
-  recent work   Python                                    
-  as of         2026-11-17 15:36 UTC                      
-└────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ────────────────────────────────────────────┐
+  last commit   Launcher: Add README (10m ago)        
+  streak        6 days                                
+  commits       156 this month                        
+  active repos  2 in last 30 days                     
+  recent work   JavaScript                            
+  as of         2026-11-18 11:39 UTC                  
+└────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 

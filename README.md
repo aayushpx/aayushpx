@@ -1,8 +1,8 @@
-<img src="assets/header.svg" width="100%" alt="Aayush Prakash: simulation, embedded systems and machine learning">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header-light.svg" width="100%" alt="Aayush Prakash: simulation, embedded systems and machine learning"></picture>
 
 I build things where software meets physics and hardware: microcontrollers, orbital mechanics and machine learning, mostly in C, C++ and Python. Studying Computer Science and Data Science in New Zealand.
 
-<img src="assets/s1-launcher.svg" width="100%" alt="01 Launcher">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s1-launcher-dark.svg"><img src="assets/s1-launcher-light.svg" width="100%" alt="01 Launcher"></picture>
 
 <img src="assets/launcher.webp" width="100%" alt="Launcher running on a LilyGO T-Display S3, wired up on a breadboard">
 
@@ -12,9 +12,9 @@ A mission-control unit for the LilyGO T-Display S3. A state machine takes it fro
 
 `ESP-IDF` `C` `MPU6050` `I²C` `MQTT` `Wi-Fi` `PWM`
 
-<img src="assets/s2-neo.svg" width="100%" alt="02 Neo">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s2-neo-dark.svg"><img src="assets/s2-neo-light.svg" width="100%" alt="02 Neo"></picture>
 
-<img src="assets/neo.webp" width="100%" alt="Neo on the T-Display S3: title screen, gameplay and the SYSTEM CRASH screen">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/neo-dark.webp"><img src="assets/neo-light.webp" width="100%" alt="Neo on the T-Display S3: title screen, gameplay and the SYSTEM CRASH screen"></picture>
 
 ### [Neo](https://github.com/aayushpx/neo)
 
@@ -22,17 +22,17 @@ A Matrix dodge game for the T-Display S3. You're Neo, the bullets keep getting f
 
 `ESP-IDF` `C` `Game loop` `NVS`
 
-<img src="assets/s3-hackathons.svg" width="100%" alt="03 Hackathons">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s3-hackathons-dark.svg"><img src="assets/s3-hackathons-light.svg" width="100%" alt="03 Hackathons"></picture>
 
 <a href="https://github.com/CelestiAI-Org/spherex"><img src="assets/hk-spherex.svg" width="100%" alt="SPHERExPLORER: 3rd place, NASA Space Apps NZ 2026"></a>
-<a href="https://github.com/CelestiAI-Org/nasa-hackathon-2025"><img src="assets/hk-exoplanet.svg" width="49%" alt="Exoplanet Explorer: 2nd place, NASA Space Apps NZ 2025"></a>
-<a href="https://github.com/CelestiAI-Org/Orbitguard"><img src="assets/hk-orbitguard.svg" width="49%" alt="OrbitGuard: built in 24 hours at ActInSpace NZ 2026"></a>
-<a href="https://github.com/CelestiAI-Org/midnight-hackathon"><img src="assets/hk-midnight.svg" width="49%" alt="Midnight HR: privacy-preserving salary verification, Midnight Hackathon 2026"></a>
-<a href="https://github.com/aayushpx/forge"><img src="assets/hk-mlh-card.svg" width="49%" alt="MLH Global Hack Week: Agents 2026, six builds in one week"></a>
+<a href="https://github.com/CelestiAI-Org/nasa-hackathon-2025"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hk-exoplanet-dark.svg"><img src="assets/hk-exoplanet-light.svg" width="49%" alt="Exoplanet Explorer: 2nd place, NASA Space Apps NZ 2025"></picture></a>
+<a href="https://github.com/CelestiAI-Org/Orbitguard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hk-orbitguard-dark.svg"><img src="assets/hk-orbitguard-light.svg" width="49%" alt="OrbitGuard: built in 24 hours at ActInSpace NZ 2026"></picture></a>
+<a href="https://github.com/CelestiAI-Org/midnight-hackathon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hk-midnight-dark.svg"><img src="assets/hk-midnight-light.svg" width="49%" alt="Midnight HR: privacy-preserving salary verification, Midnight Hackathon 2026"></picture></a>
+<a href="https://github.com/aayushpx/forge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hk-mlh-card-dark.svg"><img src="assets/hk-mlh-card-light.svg" width="49%" alt="MLH Global Hack Week: Agents 2026, six builds in one week"></picture></a>
 
 <sub>Hack Week builds: [FORGE](https://github.com/aayushpx/forge) · [TermGen](https://github.com/aayushpx/termgen) · [OrbitOps](https://github.com/aayushpx/orbitops) · [RepoLens](https://github.com/aayushpx/repolens) · [agent-memory](https://github.com/aayushpx/agent-memory) · [Commit Sage](https://github.com/aayushpx/commit-sage)</sub>
 
-<img src="assets/s4-bench.svg" width="100%" alt="04 The bench">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s4-bench-dark.svg"><img src="assets/s4-bench-light.svg" width="100%" alt="04 The bench"></picture>
 
 | Project | What it is | Stack |
 |:--|:--|:--|
@@ -42,22 +42,22 @@ A Matrix dodge game for the T-Display S3. You're Neo, the bullets keep getting f
 | [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill over raw PPM images to find and classify regions. No libraries | C++ |
 | [statsforensics](https://github.com/aayushpx/statistical-analysis-toolkit) | R package for EDA, hypothesis testing, regression and diagnostics | R |
 
-<img src="assets/s5-telemetry.svg" width="100%" alt="05 Telemetry">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s5-telemetry-dark.svg"><img src="assets/s5-telemetry-light.svg" width="100%" alt="05 Telemetry"></picture>
 
 <!--LIVE:START-->
 ```text
-┌─ LIVE FEED ─────────────────────────────────────────────────────────────────────────────────┐
-  last commit   CelestiAI-Org/spherex: keepalive: ping only the frontend /health,… (2d ago)
-  streak        6 days                                                                     
-  commits       155 this month                                                             
-  active repos  2 in last 30 days                                                          
-  recent work   JavaScript                                                                 
-  as of         2026-11-18 11:06 UTC                                                       
-└─────────────────────────────────────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ───────────────────────────────────────────────┐
+  last commit   aayushpx: chore: update live feed (1d ago)
+  streak        5 days                                    
+  commits       130 this month                            
+  active repos  3 in last 30 days                         
+  recent work   Python                                    
+  as of         2026-11-17 15:36 UTC                      
+└────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 
-<img src="assets/s6-toolkit.svg" width="100%" alt="06 Toolkit">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/s6-toolkit-dark.svg"><img src="assets/s6-toolkit-light.svg" width="100%" alt="06 Toolkit"></picture>
 
 **Languages** &nbsp; C · C++ · Python · TypeScript · JavaScript · R · Haskell · Rust · LaTeX
 <br>**Embedded** &nbsp; ESP32 / ESP-IDF · I²C · MQTT · FreeRTOS · PlatformIO

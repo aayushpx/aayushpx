@@ -1,113 +1,75 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Aayush Prakash — simulation, embedded systems and machine learning, built from first principles" src="assets/header-light.svg" width="100%">
-</picture>
+<img src="assets/header.svg" width="100%" alt="Aayush Prakash: simulation, embedded systems and machine learning">
 
-<br>
+I build things where software meets physics and hardware: microcontrollers, orbital mechanics and machine learning, mostly in C, C++ and Python. Studying Computer Science and Data Science in New Zealand.
 
-I like understanding systems all the way down: CPUs from the instruction set up, renderers from raw pixel writes, orbits from the equations of motion. Most of what I build sits where software meets physics and hardware.
+<img src="assets/s1-launcher.svg" width="100%" alt="01 Launcher">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s01-now-dark.svg">
-  <img alt="§01 Now" src="assets/s01-now-light.svg" width="100%">
-</picture>
+<img src="assets/launcher.gif" width="100%" alt="Launcher running on a LilyGO T-Display S3, wired up on a breadboard">
 
-- **Studying** Computer Science and Data Science across two universities
-- **Learning** kinematics properly before going back to my flight dynamics testbed
-- **Building** privacy-preserving applications with Midnight and Compact
-- **Exploring** machine learning, embedded systems and AI agents
+### [Launcher](https://github.com/aayushpx/Launcher)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s02-feed-dark.svg">
-  <img alt="§02 Live feed" src="assets/s02-feed-light.svg" width="100%">
-</picture>
+A mission-control unit for the LilyGO T-Display S3. A state machine takes it from **SAFE → ARMED → COUNTDOWN → IN FLIGHT → LANDED**, with an abort path. An MPU6050 IMU feeds live acceleration and gyro data over I²C, telemetry streams out over Wi-Fi and MQTT, and every event lands in a ring-buffer mission log. Four screens, driven by a rotary encoder, all written in C on ESP-IDF.
+
+`ESP-IDF` `C` `MPU6050` `I²C` `MQTT` `Wi-Fi` `PWM`
+<br><sub>Open-brief assignment for 159.236 Embedded Programming · full marks</sub>
+
+<img src="assets/s2-neo.svg" width="100%" alt="02 Neo">
+
+<img src="assets/neo.gif" width="210" align="left" alt="Neo running on the T-Display S3 emulator">
+
+### [Neo](https://github.com/aayushpx/neo)
+
+A Matrix dodge game for the T-Display S3. You're Neo, the bullets keep getting faster, and one hit is a **SYSTEM CRASH**.
+
+- Procedural Matrix rain on the title screen, 40 independent columns
+- Difficulty ramps bullet speed (120 → 600 px/s) and spawn rate together
+- High score saved to flash (NVS), so it survives power-off
+- Custom sprites and two-button controls, written in C on ESP-IDF
+
+`ESP-IDF` `C` `Game loop` `NVS`
+<br><sub>Assignment 2 for 159.236 Embedded Programming · full marks</sub>
+
+<br clear="left">
+
+<img src="assets/s3-hackathons.svg" width="100%" alt="03 Hackathons">
+
+<a href="https://github.com/CelestiAI-Org/spherex"><img src="assets/hk-spherex.svg" width="100%" alt="SPHERExPLORER: 3rd place, NASA Space Apps NZ 2026"></a>
+<a href="https://github.com/CelestiAI-Org/nasa-hackathon-2025"><img src="assets/hk-exoplanet.svg" width="49%" alt="Exoplanet Explorer: 2nd place, NASA Space Apps NZ 2025"></a>
+<a href="https://github.com/CelestiAI-Org/Orbitguard"><img src="assets/hk-orbitguard.svg" width="49%" alt="OrbitGuard: built in 24 hours at ActInSpace NZ 2026"></a>
+<a href="https://github.com/CelestiAI-Org/midnight-hackathon"><img src="assets/hk-midnight.svg" width="49%" alt="Midnight HR: privacy-preserving salary verification, Midnight Hackathon 2026"></a>
+<a href="https://github.com/aayushpx/forge"><img src="assets/hk-mlh-card.svg" width="49%" alt="MLH Global Hack Week: Agents 2026, six builds in one week"></a>
+
+<sub>Hack Week builds: [FORGE](https://github.com/aayushpx/forge) · [TermGen](https://github.com/aayushpx/termgen) · [OrbitOps](https://github.com/aayushpx/orbitops) · [RepoLens](https://github.com/aayushpx/repolens) · [agent-memory](https://github.com/aayushpx/agent-memory) · [Commit Sage](https://github.com/aayushpx/commit-sage)</sub>
+
+<img src="assets/s4-bench.svg" width="100%" alt="04 The bench">
+
+| Project | What it is | Stack |
+|:--|:--|:--|
+| [Project Aphelion](https://github.com/aayushpx/project-aphelion) | Hardware-in-the-loop flight dynamics testbed: an ESP32 flight computer streams telemetry while Python propagates the trajectory. **Paused** while I study kinematics properly | C++ · Python |
+| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers and memory | C++ |
+| [Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | A 2D renderer from raw pixel writes. No graphics API, just maths and memory | C++ |
+| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill over raw PPM images to find and classify regions. No libraries | C++ |
+| [statsforensics](https://github.com/aayushpx/statistical-analysis-toolkit) | R package for EDA, hypothesis testing, regression and diagnostics | R |
+
+<img src="assets/s5-telemetry.svg" width="100%" alt="05 Telemetry">
 
 <!--LIVE:START-->
 ```text
-┌─ LIVE FEED ─────────────────────────────────────────────────────────────────────────────────┐
-  last commit   CelestiAI-Org/spherex: keepalive: ping only the frontend /health,… (2d ago)
-  streak        6 days                                                                     
-  commits       154 this month                                                             
-  active repos  2 in last 30 days                                                          
-  recent work   JavaScript                                                                 
-  as of         2026-11-18 10:14 UTC                                                       
-└─────────────────────────────────────────────────────────────────────────────────────────────┘
+┌─ LIVE FEED ───────────────────────────────────────────────┐
+  last commit   aayushpx: chore: update live feed (1d ago)
+  streak        5 days                                    
+  commits       130 this month                            
+  active repos  3 in last 30 days                         
+  recent work   Python                                    
+  as of         2026-11-17 15:36 UTC                      
+└────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s03-flagship-dark.svg">
-  <img alt="§03 Flagship" src="assets/s03-flagship-light.svg" width="100%">
-</picture>
+<img src="assets/s6-toolkit.svg" width="100%" alt="06 Toolkit">
 
-### [Project Aphelion](https://github.com/aayushpx/project-aphelion)
-
-A hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. An ESP32 acts as a lightweight flight computer streaming live sensor telemetry, while Python handles trajectory propagation, state estimation and mission-side analysis.
-
-> **Status:** paused while I study kinematics properly. Next up when I return: a 3DOF propagator with RK4 integration.
-
-`Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s04-hackathons-dark.svg">
-  <img alt="§04 Hackathons" src="assets/s04-hackathons-light.svg" width="100%">
-</picture>
-
-| Result | Project | Event |
-|:--|:--|:--|
-| **3rd** | [SPHERExPLORER](https://github.com/CelestiAI-Org/spherex) | NASA Space Apps NZ 2026 |
-| **2nd** | [Exoplanet Explorer](https://github.com/CelestiAI-Org/nasa-hackathon-2025) | NASA Space Apps NZ 2025 |
-| | [OrbitGuard](https://github.com/CelestiAI-Org/Orbitguard) | ActInSpace NZ 2026 |
-| | [Midnight HR Verification](https://github.com/CelestiAI-Org/midnight-hackathon) | Midnight Hackathon 2026 |
-
-**SPHERExPLORER** · planetarium-style sky explorer for NASA's SPHEREx mission. Enter sky coordinates and it pulls SPHEREx survey data from IRSA into an interactive, draggable view of the sky.
-<br><sub>Project lead and remote technical lead · Python backend, SPHEREx/IRSA data retrieval and API · `Python` `JavaScript` `Three.js`</sub>
-
-**Exoplanet Explorer** · ML pipeline turning telescope data into 3D habitability visualisations.
-<br><sub>Team lead · ML pipeline, Random Forest modelling, habitability scoring · `Python` `scikit-learn` `Flask` `Three.js` `Docker`</sub>
-
-**OrbitGuard** · satellite collision-avoidance decision support. A skip-connection LSTM models how collision risk evolves over time, built in 24 hours.
-<br><sub>Team lead · product direction, system design, pitch · `Python` `PyTorch` `TypeScript`</sub>
-
-**Midnight HR Verification** · checks whether a candidate's salary fits an approved budget without ever revealing the salary.
-<br><sub>Team lead · system design, privacy architecture, integration · `Midnight` `Compact` `Python` `TypeScript` `Streamlit`</sub>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s05-scratch-dark.svg">
-  <img alt="§05 Built from scratch" src="assets/s05-scratch-light.svg" width="100%">
-</picture>
-
-| Project | What it does | Stack |
-|:--|:--|:--|
-| [16-bit CPU Simulator](https://github.com/aayushpx/16bit-cpu-simulator) | Custom ISA with a full fetch-decode-execute cycle, registers and memory | C++ |
-| [C++ Software Rasterizer](https://github.com/aayushpx/cpp-rasterizer) | 2D renderer from raw pixel writes. No graphics API, just math and memory | C++ |
-| [Connected Component Detector](https://github.com/aayushpx/connected-component-detector) | DFS flood-fill over raw PPM images to detect and classify regions. No libraries | C++ |
-| [Discrete Math Notes and Proofs](https://github.com/aayushpx/mathematical-proofs-and-discrete-structures) | LaTeX system formalising logic, algebra, coding theory and discrete structures | LaTeX |
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s06-tools-dark.svg">
-  <img alt="§06 Tools & libraries" src="assets/s06-tools-light.svg" width="100%">
-</picture>
-
-| Project | What it does | Stack |
-|:--|:--|:--|
-| [statsforensics](https://github.com/aayushpx/statistical-analysis-toolkit) | R package for EDA, hypothesis testing, regression modelling and diagnostics | R |
-| [Binary / Decimal Converter](https://github.com/aayushpx/binary-decimal-converter) | CLI base conversion with input validation and error handling | C++ |
-| [MUITSA Website](https://aayushpx.github.io/muitsa-site/) | Student association site with modular architecture and GitHub Actions deploys | HTML/CSS/JS |
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s07-toolkit-dark.svg">
-  <img alt="§07 Toolkit" src="assets/s07-toolkit-light.svg" width="100%">
-</picture>
-
-**Languages** &nbsp; C++ · Python · TypeScript · JavaScript · R · Haskell · LaTeX
+**Languages** &nbsp; C · C++ · Python · TypeScript · JavaScript · R · Haskell · Rust · LaTeX
+<br>**Embedded** &nbsp; ESP32 / ESP-IDF · I²C · MQTT · FreeRTOS · PlatformIO
 <br>**ML & data** &nbsp; PyTorch · scikit-learn · Pandas · NumPy
 <br>**Web & viz** &nbsp; Three.js · Flask · Streamlit
-<br>**Embedded & tools** &nbsp; ESP32 · ESP-IDF · Git · Docker · Linux
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img alt="End of transmission" src="assets/footer-light.svg" width="100%">
-</picture>
+<br>**Tools** &nbsp; Git · Docker · Linux · Neovim

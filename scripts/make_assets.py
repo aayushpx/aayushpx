@@ -130,20 +130,45 @@ def feature(img, event, place, title, lines, role):
     s.t("MonoB", 40, H - 34, 15, CYN, role, 'letter-spacing="2"')
     out = s.out(W, H, f"{title}: {place}, {event}"); globals().update(cur); return out
 
+def project_card(img, tag, title, sub, lines, chips, url_hint="VIEW REPO  →", iw=840, ih=420, ix=None, iy=0):
+    cur = dict((k, globals()[k]) for k in THEMES["dark"]); set_theme("dark")
+    W, H = 1280, 420; s = S()
+    b64 = base64.b64encode(open(img, "rb").read()).decode()
+    s.r(f'<defs><clipPath id="c"><rect width="{W}" height="{H}" rx="14"/></clipPath>'
+        f'<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="{BG}"/><stop offset=".30" stop-color="{BG}"/>'
+        f'<stop offset=".52" stop-color="{BG}" stop-opacity=".55"/><stop offset=".75" stop-color="{BG}" stop-opacity="0"/></linearGradient></defs>')
+    s.r(f'<g clip-path="url(#c)"><rect width="{W}" height="{H}" fill="{BG}"/><image x="{W-iw if ix is None else ix}" y="{iy}" width="{iw}" height="{ih}" href="data:image/jpeg;base64,{b64}"/><rect width="{W}" height="{H}" fill="url(#fade)"/></g>')
+    s.r(f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="14" fill="none" stroke="{LINE}"/>')
+    s.t("Mono", 40, 54, 15, AMB, tag, 'letter-spacing="2"')
+    s.t("Anton", 38, 150, 84, TXT, title, 'letter-spacing="1.5"')
+    s.t("Mono", 42, 192, 16, CYN, sub, 'letter-spacing="2"')
+    for i, ln in enumerate(lines):
+        s.t("Sans", 40, 246 + i * 32, 23, "#D3DAE2", ln)
+    s.t("MonoB", 40, H - 34, 15, MUT, chips, 'letter-spacing="2"')
+    s.t("MonoB", W - 40, H - 34, 15, AMB, url_hint, 'letter-spacing="2" text-anchor="end"')
+    out = s.out(W, H, title); globals().update(cur); return out
+
 if __name__ == "__main__":
     o = sys.argv[1]
     for theme in ("dark", "light"):
       set_theme(theme); sfx = "-" + theme
       open(f"{o}/header{sfx}.svg", "w").write(header())
       for i, (slug, title, tags) in enumerate([
-          ("launcher", "LAUNCHER", "ESP32-S3  ·  C  ·  MQTT  ·  IMU"),
-          ("neo", "NEO", "ESP32-S3  ·  C  ·  GAME"),
+          ("projects", "PROJECTS", "EMBEDDED  ·  ESP32-S3  ·  C"),
           ("hackathons", "HACKATHONS", "2ND '25  ·  3RD '26"),
           ("bench", "THE BENCH", "C++  ·  PYTHON  ·  R"),
           ("telemetry", "TELEMETRY", "LIVE  ·  UPDATED DAILY"),
           ("toolkit", "TOOLKIT", "")], 1):
           open(f"{o}/s{i}-{slug}{sfx}.svg", "w").write(section(i, title, tags))
-      open(f"{o}/hk-spherex.svg", "w").write(feature("/home/claude/test/full/spherex_bg.jpg", "NASA SPACE APPS NZ  ·  2026  ·  PLANET X AND SPHEREX CHALLENGE", "3RD PLACE", "SPHEREXPLORER",
+      open(f"{o}/p-launcher.svg", "w").write(project_card("scripts/src/launcher_card.jpg", "HARDWARE  ·  2026", "LAUNCHER",
+          "MISSION CONTROL ON A T-DISPLAY S3",
+          ["A launch-sequence state machine, live IMU", "telemetry over MQTT, and a mission event log,", "all in C on bare ESP-IDF."],
+          "ESP32-S3  ·  C  ·  MPU6050  ·  MQTT"))
+      open(f"{o}/p-neo.svg", "w").write(project_card("scripts/src/neo_card.jpg", "GAME  ·  2026", "NEO",
+          "A MATRIX DODGE GAME FOR THE T-DISPLAY S3",
+          ["Dodge bullets that keep getting faster.", "Procedural Matrix rain, a ramping difficulty", "curve and a high score saved to flash."],
+          "ESP32-S3  ·  C  ·  NVS  ·  GAME LOOP", iw=559, ih=330, ix=660, iy=26))
+      open(f"{o}/hk-spherex.svg", "w").write(feature("scripts/src/spherex_bg.jpg", "NASA SPACE APPS NZ  ·  2026  ·  PLANET X AND SPHEREX CHALLENGE", "3RD PLACE", "SPHEREXPLORER",
           ["Real SPHEREx survey data, pulled live from IRSA", "into a cinematic, explorable sky."], "PROJECT LEAD  ·  REMOTE TECH LEAD  ·  BACKEND + DATA"))
       open(f"{o}/hk-exoplanet{sfx}.svg", "w").write(card("NASA SPACE APPS NZ  ·  2025", "2ND", AMB, "EXOPLANET EXPLORER",
           ["An ML pipeline that turns telescope data", "into 3D habitability visualisations."], "TEAM LEAD  ·  ML PIPELINE"))

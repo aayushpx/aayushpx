@@ -41,35 +41,46 @@ query($login: String!) {
           }
         }
       }
-    }
 
-    repositories(
-      first: 100
-      ownerAffiliations: OWNER
-      privacy: PUBLIC
-      orderBy: {field: PUSHED_AT, direction: DESC}
-    ) {
-      nodes {
-        name
-        pushedAt
-        primaryLanguage {
+      # Every repo the user committed to in the past year, including
+      # repos owned by organisations (e.g. hackathon team repos).
+      commitContributionsByRepository(maxRepositories: 100) {
+        repository {
           name
-        }
-
-        defaultBranchRef {
-          target {
-            ... on Commit {
-              history(first: 1) {
-                nodes {
-                  committedDate
-                  messageHeadline
+          nameWithOwner
+          isPrivate
+          owner {
+            login
+          }
+          primaryLanguage {
+            name
+          }
+          defaultBranchRef {
+            target {
+              ... on Commit {
+                history(first: 50) {
+                  nodes {
+                    committedDate
+                    messageHeadline
+                    author {
+                      user {
+                        login
+                      }
+                    }
+                  }
                 }
               }
             }
           }
         }
+        contributions(first: 1, orderBy: {field: OCCURRED_AT, direction: DESC}) {
+          nodes {
+            occurredAt
+          }
+        }
       }
     }
+
   }
 }
 """
@@ -134,8 +145,16 @@ def compute_streak(days):
     return streak
 
 
+def display_name(repo):
+    """Show "repo" for your own repos and "org/repo" for everyone else's."""
+    if repo["owner"]["login"].lower() == GH_USERNAME.lower():
+        return repo["name"]
+
+    return repo["nameWithOwner"]
+
+
 def get_latest_commit(repositories):
-    """Find the latest commit across owned public repositories."""
+    """Find the user's own most recent commit across all their repos."""
     latest = None
 
     for repo in repositories:
@@ -146,31 +165,34 @@ def get_latest_commit(repositories):
 
         history = ref["target"].get("history", {}).get("nodes", [])
 
-        if not history:
-            continue
+        for commit in history:
+            author = (commit.get("author") or {}).get("user") or {}
 
-        commit = history[0]
-        commit_date = parse_date(commit["committedDate"])
+            if (author.get("login") or "").lower() != GH_USERNAME.lower():
+                continue
 
-        candidate = (
-            commit_date,
-            repo["name"],
-            commit["messageHeadline"],
-        )
+            commit_date = parse_date(commit["committedDate"])
 
-        if latest is None or commit_date > latest[0]:
-            latest = candidate
+            if latest is None or commit_date > latest[0]:
+                latest = (
+                    commit_date,
+                    display_name(repo),
+                    commit["messageHeadline"],
+                )
+
+            # History is newest first, so the first match is enough.
+            break
 
     return latest
 
 
 def get_active_repositories(repositories, since):
-    """Return repositories pushed to since the supplied datetime."""
+    """Return repositories the user committed to since the given datetime."""
     return [
         repo
         for repo in repositories
-        if repo.get("pushedAt")
-        and parse_date(repo["pushedAt"]) >= since
+        if repo.get("lastContribution")
+        and parse_date(repo["lastContribution"]) >= since
     ]
 
 
@@ -240,11 +262,25 @@ def build_feed(user):
 
     # Skip the profile repo itself: its daily "update live feed" commit
     # would otherwise always show up as the latest commit.
-    repositories = [
-        repo
-        for repo in user["repositories"]["nodes"]
-        if repo["name"].lower() != GH_USERNAME.lower()
-    ]
+    profile_repo = f"{GH_USERNAME}/{GH_USERNAME}".lower()
+
+    repositories = []
+
+    for entry in user["contributionsCollection"][
+        "commitContributionsByRepository"
+    ]:
+        repo = dict(entry["repository"])
+
+        if repo["isPrivate"]:
+            continue
+
+        if repo["nameWithOwner"].lower() == profile_repo:
+            continue
+
+        nodes = entry["contributions"]["nodes"]
+        repo["lastContribution"] = nodes[0]["occurredAt"] if nodes else None
+
+        repositories.append(repo)
 
     latest = get_latest_commit(repositories)
 
@@ -285,7 +321,7 @@ def build_feed(user):
 
         last_commit = (
             f"{repo_name}: "
-            f"{truncate(headline, 62)} "
+            f"{truncate(headline, 44)} "
             f"({format_age(commit_date, now)})"
         )
     else:
@@ -325,7 +361,7 @@ def build_feed(user):
 
     top_border = (
         "┌─ LIVE FEED "
-        + "─" * (border_len - 13)
+        + "─" * (border_len - 12)
         + "┐"
     )
 

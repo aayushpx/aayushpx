@@ -8,8 +8,7 @@
 
 ## CURRENTLY
 - Pursuing Computer Science and Data Science degrees across two universities
-- Building a hardware-in-the-loop flight dynamics testbed
-- Building privacy-preserving applications with Midnight and Compact
+- Studying kinematics properly before going back to my flight dynamics testbed
 - Exploring machine learning, embedded systems, and AI agents
 
 ---
@@ -35,13 +34,18 @@
 
 Hardware-in-the-loop flight dynamics testbed for simulating and validating spacecraft motion. An ESP32 runs as a lightweight flight computer streaming live sensor telemetry, while Python handles trajectory propagation, state estimation, and mission-side analysis.
 
-Currently implementing a 3DOF propagator using RK4 integration.
+**Status:** on pause while I study kinematics properly. Next up when I return: a 3DOF propagator using RK4 integration.
 
 `Embedded C++` `ESP-IDF v5.2` `Python` `NumPy` `ESP32-WROOM`
 
 ---
 
 ## Hackathons
+
+**[SPHERExPLORER](https://github.com/CelestiAI-Org/spherex), NASA Space Apps New Zealand 2026, 3rd Place**
+<br>Planetarium-style sky explorer for NASA's SPHEREx mission (Planet X and SPHEREx challenge). Enter sky coordinates and the app pulls SPHEREx survey data from IRSA into an interactive, draggable view of the sky.
+<br>Role: Project Lead, remote technical lead, Python backend, SPHEREx/IRSA data retrieval and API
+<br>`Python` `JavaScript` `Three.js`
 
 **[Midnight HR Verification](https://github.com/CelestiAI-Org/midnight-hackathon), Midnight Hackathon 2026**
 <br>Privacy-preserving HR verification prototype using Midnight and Compact. Verifies whether a candidate's salary satisfies an approved budget without exposing the underlying salary.
@@ -83,8 +87,9 @@ Currently implementing a 3DOF propagator using RK4 integration.
 
 ## Skills
 
-**Languages:** C++, Python, R, LaTeX
+**Languages:** C++, Python, TypeScript, JavaScript, R, Haskell, LaTeX
 <br>**ML & Data:** scikit-learn, PyTorch, Pandas, NumPy
-<br>**Embedded & Tools:** ESP-IDF, Git, Docker, Linux
+<br>**Web & Viz:** Three.js, Flask, Streamlit
+<br>**Embedded & Tools:** ESP32, ESP-IDF, Git, Docker, Linux
 
 ---

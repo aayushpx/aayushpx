@@ -40,12 +40,12 @@ A [16-bit CPU](https://github.com/aayushpx/16bit-cpu-simulator) with its own ins
 <!--LIVE:START-->
 ```text
 ┌─ LIVE FEED ────────────────────────────────────────────────────────────────────────┐
-  last commit   aayushpx.github.io: Replace astro page, delete desk.astro (7h ago)
-  streak        7 days                                                            
+  last commit   aayushpx.github.io: Replace astro page, delete desk.astro (1d ago)
+  streak        0 days                                                            
   commits       187 this month                                                    
   active repos  5 in last 30 days                                                 
   recent work   C · JavaScript · TypeScript                                       
-  as of         2026-11-19 15:21 UTC                                              
+  as of         2026-11-20 14:58 UTC                                              
 └────────────────────────────────────────────────────────────────────────────────────┘
 ```
 <!--LIVE:END-->
